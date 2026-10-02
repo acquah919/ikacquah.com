@@ -1,0 +1,133 @@
+{
+  "Metadata": {
+    "defaultTitle": "{name}: {title}",
+    "homeTitle": "{name}, {title}, {university}",
+    "siteName": "{name}"
+  },
+  "Common": {
+    "skipToContent": "Saltar para o conteúdo",
+    "close": "Fechar",
+    "menu": "Menu"
+  },
+  "Nav": {
+    "label": "Principal",
+    "about": "Sobre",
+    "research": "Investigação",
+    "publications": "Publicações",
+    "services": "Serviços",
+    "contact": "Contacto",
+    "blog": "Blog"
+  },
+  "Header": {
+    "home": "{name}, início",
+    "downloadCv": "Descarregar CV",
+    "menuDescription": "Navegação, língua e apresentação para {name}"
+  },
+  "Footer": {
+    "explore": "Explorar",
+    "connect": "Contacto",
+    "language": "Língua",
+    "download": "Descarregar",
+    "backToTop": "Voltar ao topo",
+    "rights": "Todos os direitos reservados.",
+    "cv": "Curriculum vitae (PDF)"
+  },
+  "Language": {
+    "label": "Língua",
+    "change": "Mudar de língua, atual: {language}",
+    "comingSoon": "Em breve"
+  },
+  "Theme": {
+    "toggle": "Alternar entre modo claro e escuro",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "Cookie": {
+    "title": "Uma nota sobre cookies",
+    "body": "Este sítio guarda a sua língua e as preferências de apresentação para o receber da mesma forma da próxima vez. Sem rastreio nem publicidade.",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  },
+  "Hero": {
+    "portraitAlt": "Retrato de {name}, físico médico e docente"
+  },
+  "Sections": {
+    "revealEmail": "Mostrar endereço de correio",
+    "emailLabel": "Correio",
+    "locationLabel": "Baseado em",
+    "topics": "Temas de {title}",
+    "compareLabel": "Comparar a imagem de RM com o CT sintético",
+    "mri": "RM",
+    "syntheticCt": "CT sintético",
+    "dragHint": "Arraste para comparar",
+    "illustrative": "Imagem ilustrativa, não são dados de doentes"
+  },
+  "Blog": {
+    "eyebrow": "Notas",
+    "title": "Notas do laboratório e da aula.",
+    "lead": "Ensaios sobre física médica, imagem, proteção radiológica, ensino da física e as ideias que ligam a investigação à sala de aula.",
+    "readingTime": "{minutes} min de leitura",
+    "topics": "Temas do artigo",
+    "empty": "Os primeiros ensaios aparecerão aqui.",
+    "fallback": "Este artigo ainda não está neste idioma. Mostra-se a versão original em inglês.",
+    "read": "Ler",
+    "published": "Publicado",
+    "onThisPage": "Nesta página",
+    "appreciate": "Isto foi útil?",
+    "clap": "Aplaudir",
+    "love": "Gostar"
+  },
+  "Publications": {
+    "metaTitle": "Publicações",
+    "metaDescription": "Artigos de revista do Dr Isaac Kwesi Acquah em física médica, proteção radiológica e ensino da física.",
+    "eyebrow": "Publicações",
+    "titleFirst": "Investigação,",
+    "titleSecond": "em papel.",
+    "lead": "Artigos de revista em física médica, proteção radiológica e ensino da física. Abra um PDF, siga um DOI ou filtre por ano e área.",
+    "records": "Registos",
+    "formats": "Formatos",
+    "archiveEyebrow": "Arquivo completo",
+    "archiveTitle": "Explore a biblioteca de publicações.",
+    "archiveLead": "Pesquise por título ou autor e filtre por ano, área de investigação, tipo de publicação ou formato do documento.",
+    "searchLabel": "Pesquisar publicações",
+    "searchPlaceholder": "Título, autor, revista ou área",
+    "yearLabel": "Ano",
+    "areaLabel": "Área",
+    "typeLabel": "Tipo",
+    "formatLabel": "Formato",
+    "allYears": "Todos os anos",
+    "allAreas": "Todas as áreas",
+    "allTypes": "Todos os tipos",
+    "allFormats": "Todos os formatos",
+    "types": {
+      "journal": "Artigo de revista",
+      "conference": "Comunicação",
+      "bookChapter": "Capítulo de livro",
+      "thesis": "Tese",
+      "other": "Outro"
+    },
+    "resultCount": "{count, plural, =0 {Sem registos} one {# registo} other {# registos}}",
+    "clear": "Limpar filtros",
+    "detailsPending": "Os autores e a revista serão adicionados com o registo verificado.",
+    "openPdf": "Abrir PDF",
+    "downloadWord": "Descarregar Word",
+    "viewRecord": "Ver registo",
+    "filePending": "Ficheiro pendente",
+    "emptyTitle": "Nenhuma publicação corresponde.",
+    "emptyBody": "Amplie a pesquisa ou limpe os filtros para ver todo o arquivo."
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "Esta página não está aqui.",
+    "body": "O endereço pode ter mudado ou nunca existiu. A página inicial é o melhor sítio para recomeçar.",
+    "back": "Voltar ao início",
+    "blog": "Ler as notas"
+  },
+  "Error": {
+    "eyebrow": "Algo correu mal",
+    "title": "Esta página não conseguiu terminar de carregar.",
+    "body": "Uma falha temporária interrompeu a página. Tente de novo ou volte ao início.",
+    "retry": "Tentar de novo",
+    "back": "Voltar ao início"
+  }
+}

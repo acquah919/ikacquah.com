@@ -1,0 +1,133 @@
+{
+  "Metadata": {
+    "defaultTitle": "{name}: {title}",
+    "homeTitle": "{name}, {title}, {university}",
+    "siteName": "{name}"
+  },
+  "Common": {
+    "skipToContent": "Skip to content",
+    "close": "Close",
+    "menu": "Menu"
+  },
+  "Nav": {
+    "label": "Primary",
+    "about": "About",
+    "research": "Research",
+    "publications": "Publications",
+    "services": "Services",
+    "contact": "Get in touch",
+    "blog": "Blog"
+  },
+  "Header": {
+    "home": "{name}, home",
+    "downloadCv": "Download CV",
+    "menuDescription": "Site navigation, language, and display settings for {name}"
+  },
+  "Footer": {
+    "explore": "Explore",
+    "connect": "Connect",
+    "language": "Language",
+    "download": "Download",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved.",
+    "cv": "Curriculum vitae (PDF)"
+  },
+  "Language": {
+    "label": "Language",
+    "change": "Change language, current: {language}",
+    "comingSoon": "Soon"
+  },
+  "Theme": {
+    "toggle": "Switch between light and dark mode",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "Cookie": {
+    "title": "A note on cookies",
+    "body": "This site stores your language and display preferences so it can greet you the same way next time. No tracking, no advertising.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "Hero": {
+    "portraitAlt": "Portrait of {name}, medical physicist and lecturer"
+  },
+  "Sections": {
+    "revealEmail": "Reveal email address",
+    "emailLabel": "Email",
+    "locationLabel": "Based in",
+    "topics": "{title} topics",
+    "compareLabel": "Compare the MRI rendering with the synthetic CT rendering",
+    "mri": "MRI",
+    "syntheticCt": "Synthetic CT",
+    "dragHint": "Drag to compare",
+    "illustrative": "Illustrative rendering, not patient data"
+  },
+  "Blog": {
+    "eyebrow": "Insights",
+    "title": "Notes from the lab and the lecture hall.",
+    "lead": "Essays on medical physics, imaging, radiation safety, physics education, teaching, and the ideas connecting research with the classroom.",
+    "empty": "The first essays will appear here.",
+    "fallback": "This article is not yet available in the selected language. The original English version is shown.",
+    "read": "Read",
+    "published": "Published",
+    "readingTime": "{minutes} min read",
+    "topics": "Article topics",
+    "onThisPage": "On this page",
+    "appreciate": "Was this useful?",
+    "clap": "Clap",
+    "love": "Love"
+  },
+  "Publications": {
+    "metaTitle": "Publications",
+    "metaDescription": "Journal articles by Dr Isaac Kwesi Acquah in medical physics, radiation protection, and physics education.",
+    "eyebrow": "Publications",
+    "titleFirst": "Research,",
+    "titleSecond": "in print.",
+    "lead": "Journal articles in medical physics, radiation protection, and physics education. Open a PDF, follow a DOI, or filter by year and research area.",
+    "records": "Records",
+    "formats": "File mix",
+    "archiveEyebrow": "Full archive",
+    "archiveTitle": "Explore the publication library.",
+    "archiveLead": "Search by title or author, then narrow the archive by year, research area, publication type, or document format.",
+    "searchLabel": "Search publications",
+    "searchPlaceholder": "Search title, author, journal, or area",
+    "yearLabel": "Year",
+    "areaLabel": "Research area",
+    "typeLabel": "Type",
+    "formatLabel": "Format",
+    "allYears": "All years",
+    "allAreas": "All areas",
+    "allTypes": "All types",
+    "allFormats": "All formats",
+    "types": {
+      "journal": "Journal article",
+      "conference": "Conference paper",
+      "bookChapter": "Book chapter",
+      "thesis": "Thesis",
+      "other": "Other"
+    },
+    "resultCount": "{count, plural, =0 {No records} one {# record} other {# records}}",
+    "clear": "Clear filters",
+    "detailsPending": "Author and journal details will be added with the verified record.",
+    "openPdf": "Open PDF",
+    "downloadWord": "Download Word",
+    "viewRecord": "View record",
+    "filePending": "File pending",
+    "emptyTitle": "No publications match.",
+    "emptyBody": "Try a broader search or clear the filters to see the full archive."
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "This page is not here.",
+    "body": "The address may have changed or never existed. The homepage is the best place to start again.",
+    "back": "Back to the homepage",
+    "blog": "Read the notes"
+  },
+  "Error": {
+    "eyebrow": "Something went wrong",
+    "title": "This page could not finish loading.",
+    "body": "A temporary fault stopped the page. Try again, or return to the homepage.",
+    "retry": "Try again",
+    "back": "Back to the homepage"
+  }
+}

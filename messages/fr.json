@@ -1,0 +1,133 @@
+{
+  "Metadata": {
+    "defaultTitle": "{name} : {title}",
+    "homeTitle": "{name}, {title}, {university}",
+    "siteName": "{name}"
+  },
+  "Common": {
+    "skipToContent": "Aller au contenu",
+    "close": "Fermer",
+    "menu": "Menu"
+  },
+  "Nav": {
+    "label": "Principal",
+    "about": "À propos",
+    "research": "Recherche",
+    "publications": "Publications",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "Header": {
+    "home": "{name}, accueil",
+    "downloadCv": "Télécharger le CV",
+    "menuDescription": "Navigation, langue et affichage pour {name}"
+  },
+  "Footer": {
+    "explore": "Explorer",
+    "connect": "Contact",
+    "language": "Langue",
+    "download": "Télécharger",
+    "backToTop": "Haut de page",
+    "rights": "Tous droits réservés.",
+    "cv": "Curriculum vitae (PDF)"
+  },
+  "Language": {
+    "label": "Langue",
+    "change": "Changer de langue, actuelle : {language}",
+    "comingSoon": "Bientôt"
+  },
+  "Theme": {
+    "toggle": "Passer du mode clair au mode sombre",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "Cookie": {
+    "title": "À propos des cookies",
+    "body": "Ce site enregistre votre langue et vos préférences d'affichage pour vous accueillir de la même façon la prochaine fois. Pas de suivi, pas de publicité.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "Hero": {
+    "portraitAlt": "Portrait de {name}, physicien médical et enseignant"
+  },
+  "Sections": {
+    "revealEmail": "Afficher l'adresse e-mail",
+    "emailLabel": "E-mail",
+    "locationLabel": "Basé à",
+    "topics": "Thèmes {title}",
+    "compareLabel": "Comparer le rendu IRM et le CT synthétique",
+    "mri": "IRM",
+    "syntheticCt": "CT synthétique",
+    "dragHint": "Glisser pour comparer",
+    "illustrative": "Rendu illustratif, pas de données patient"
+  },
+  "Blog": {
+    "eyebrow": "Notes",
+    "title": "Notes du laboratoire et de l'amphi.",
+    "lead": "Des essais sur la physique médicale, l'imagerie, la radioprotection, l'enseignement de la physique et les liens entre la recherche et la salle de classe.",
+    "readingTime": "{minutes} min de lecture",
+    "topics": "Thèmes de l'article",
+    "empty": "Les premiers essais apparaîtront ici.",
+    "fallback": "Cet article n'est pas encore disponible dans cette langue. La version anglaise est affichée.",
+    "read": "Lire",
+    "published": "Publié",
+    "onThisPage": "Sur cette page",
+    "appreciate": "Cela vous a-t-il été utile ?",
+    "clap": "Applaudir",
+    "love": "Aimer"
+  },
+  "Publications": {
+    "metaTitle": "Publications",
+    "metaDescription": "Articles de revue du Dr Isaac Kwesi Acquah en physique médicale, radioprotection et enseignement de la physique.",
+    "eyebrow": "Publications",
+    "titleFirst": "La recherche,",
+    "titleSecond": "sur papier.",
+    "lead": "Articles de revue en physique médicale, radioprotection et enseignement de la physique. Ouvrez un PDF, suivez un DOI, ou filtrez par année et domaine.",
+    "records": "Entrées",
+    "formats": "Formats",
+    "archiveEyebrow": "Archive complète",
+    "archiveTitle": "Explorer la bibliothèque de publications.",
+    "archiveLead": "Recherchez par titre ou auteur, puis filtrez par année, domaine de recherche, type de publication ou format de document.",
+    "searchLabel": "Rechercher des publications",
+    "searchPlaceholder": "Titre, auteur, revue ou domaine",
+    "yearLabel": "Année",
+    "areaLabel": "Domaine",
+    "typeLabel": "Type",
+    "formatLabel": "Format",
+    "allYears": "Toutes les années",
+    "allAreas": "Tous les domaines",
+    "allTypes": "Tous les types",
+    "allFormats": "Tous les formats",
+    "types": {
+      "journal": "Article de revue",
+      "conference": "Communication",
+      "bookChapter": "Chapitre de livre",
+      "thesis": "Thèse",
+      "other": "Autre"
+    },
+    "resultCount": "{count, plural, =0 {Aucune entrée} one {# entrée} other {# entrées}}",
+    "clear": "Effacer les filtres",
+    "detailsPending": "Les auteurs et la revue seront ajoutés avec la fiche vérifiée.",
+    "openPdf": "Ouvrir le PDF",
+    "downloadWord": "Télécharger Word",
+    "viewRecord": "Voir la fiche",
+    "filePending": "Fichier à venir",
+    "emptyTitle": "Aucune publication correspondante.",
+    "emptyBody": "Élargissez la recherche ou effacez les filtres pour voir toute l'archive."
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "Cette page n'est pas ici.",
+    "body": "L'adresse a peut-être changé ou n'a jamais existé. L'accueil est le meilleur point de départ.",
+    "back": "Retour à l'accueil",
+    "blog": "Lire les notes"
+  },
+  "Error": {
+    "eyebrow": "Un problème est survenu",
+    "title": "Cette page n'a pas pu se charger.",
+    "body": "Une erreur temporaire a interrompu la page. Réessayez, ou revenez à l'accueil.",
+    "retry": "Réessayer",
+    "back": "Retour à l'accueil"
+  }
+}

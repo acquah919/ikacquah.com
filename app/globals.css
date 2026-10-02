@@ -1,0 +1,474 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-ivory: var(--ivory);
+  --color-ink: var(--ink);
+  --color-graphite: var(--graphite);
+  --color-teal: var(--teal);
+  --color-leaf: var(--leaf);
+  --color-leaf-deep: var(--leaf-deep);
+  --color-paper: var(--paper);
+  --color-stone: var(--stone);
+  --color-blue: var(--blue);
+  --color-line: var(--line);
+  --color-charcoal: var(--charcoal);
+  --color-warm-white: var(--warm-white);
+  --color-teal-bright: var(--teal-bright);
+  --color-cool-gray: var(--cool-gray);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-spline), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-heading: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-drift: drift 22s ease-in-out infinite alternate;
+
+  @keyframes drift {
+    from {
+      transform: translate3d(-6%, -4%, 0) scale(1);
+    }
+    to {
+      transform: translate3d(6%, 6%, 0) scale(1.12);
+    }
+  }
+}
+
+/*
+ * Brand hex: #8FC058 leaf, #F2E8DC paper, #AD9E8F stone.
+ * Tokens live in oklch so light/dark can shift lightness without leaving the hue.
+ */
+:root {
+  --paper: oklch(0.935 0.018 75);
+  --leaf: oklch(0.748 0.132 128);
+  --leaf-deep: oklch(0.452 0.108 128);
+  --stone: oklch(0.698 0.028 70);
+  --ink: oklch(0.248 0.022 60);
+  --charcoal: oklch(0.214 0.018 80);
+  --line: oklch(0.86 0.018 75);
+
+  --ivory: var(--paper);
+  --graphite: var(--stone);
+  --teal: var(--leaf-deep);
+  --blue: oklch(0.58 0.04 128);
+  --warm-white: var(--paper);
+  --teal-bright: var(--leaf);
+  --cool-gray: oklch(0.78 0.02 75);
+
+  --radius: 0.25rem;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: oklch(0.97 0.01 75);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: oklch(0.91 0.016 75);
+  --secondary-foreground: var(--ink);
+  --muted: oklch(0.91 0.016 75);
+  --muted-foreground: oklch(0.5 0.028 70);
+  --accent: var(--leaf-deep);
+  --accent-foreground: oklch(0.99 0.01 75);
+  --destructive: oklch(0.55 0.16 28);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--leaf-deep);
+  --chart-1: var(--leaf-deep);
+  --chart-2: var(--stone);
+  --chart-3: var(--leaf);
+  --chart-4: var(--cool-gray);
+  --chart-5: var(--ink);
+  --sidebar: var(--paper);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--ink);
+  --sidebar-primary-foreground: var(--paper);
+  --sidebar-accent: oklch(0.91 0.016 75);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--leaf-deep);
+}
+
+/*
+ * Dark tokens apply both to the site-wide dark theme (class on <html>) and to
+ * inverse sections in the light theme (class on the section).
+ */
+.dark {
+  --background: var(--charcoal);
+  --foreground: var(--paper);
+  --card: oklch(0.26 0.02 80);
+  --card-foreground: var(--paper);
+  --popover: oklch(0.26 0.02 80);
+  --popover-foreground: var(--paper);
+  --primary: var(--paper);
+  --primary-foreground: var(--charcoal);
+  --secondary: oklch(0.29 0.022 80);
+  --secondary-foreground: var(--paper);
+  --muted: oklch(0.29 0.022 80);
+  --muted-foreground: var(--stone);
+  --accent: var(--leaf);
+  --accent-foreground: var(--charcoal);
+  --destructive: oklch(0.68 0.14 28);
+  --border: oklch(0.935 0.018 75 / 0.14);
+  --input: oklch(0.935 0.018 75 / 0.18);
+  --ring: var(--leaf);
+  --chart-1: var(--leaf);
+  --chart-2: var(--stone);
+  --chart-3: var(--leaf-deep);
+  --chart-4: var(--paper);
+  --chart-5: var(--leaf-deep);
+  --sidebar: oklch(0.26 0.02 80);
+  --sidebar-foreground: var(--paper);
+  --sidebar-primary: var(--paper);
+  --sidebar-primary-foreground: var(--charcoal);
+  --sidebar-accent: oklch(0.29 0.022 80);
+  --sidebar-accent-foreground: var(--paper);
+  --sidebar-border: oklch(0.935 0.018 75 / 0.14);
+  --sidebar-ring: var(--leaf);
+}
+
+/*
+ * An inverse section inside the dark theme: lift it onto a teal-tinted
+ * charcoal so light/dark rhythm still reads. Also used by the header pill and
+ * the mobile menu when they sit over such a section.
+ */
+.dark .dark {
+  --background: oklch(0.24 0.024 128);
+  --card: oklch(0.28 0.026 128);
+  --popover: oklch(0.28 0.026 128);
+  --secondary: oklch(0.31 0.028 128);
+  --muted: oklch(0.31 0.028 128);
+}
+
+.portrait-plate {
+  filter: drop-shadow(0 24px 40px oklch(0.248 0.022 60 / 0.22));
+}
+.clip-graduation {
+  clip-path: polygon(
+    0% 6%,
+    8% 0%,
+    100% 0%,
+    100% 88%,
+    86% 100%,
+    0% 94%
+  );
+}
+
+@utility text-display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4.2vw + 1.4rem, 7rem);
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+@utility text-display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(2.125rem, min(8.4cqi, 3.8vw + 1rem), 5.25rem);
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+@utility text-display-md {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.6vw, 4.25rem);
+  line-height: 1;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+@utility text-display-sm {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.6vw, 2.375rem);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+@utility text-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@utility text-lead {
+  font-size: clamp(1.0625rem, 1.35vw, 1.3125rem);
+  line-height: 1.55;
+  letter-spacing: -0.005em;
+}
+
+@utility editorial-prose {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  max-width: 42rem;
+
+  & > * + * {
+    margin-top: 1.25em;
+  }
+
+  & h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    margin-top: 2em;
+  }
+
+  & h3 {
+    font-family: var(--font-display);
+    font-size: 1.375rem;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-top: 1.6em;
+  }
+
+  & a {
+    color: var(--accent);
+    text-underline-offset: 0.2em;
+    text-decoration: underline;
+  }
+
+  & ul,
+  & ol {
+    padding-inline-start: 1.25em;
+  }
+
+  & li + li {
+    margin-top: 0.4em;
+  }
+}
+
+@utility container-editorial {
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4vw, 4rem);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+
+  html[lang="ar"] {
+    --font-sans: var(--font-noto-sans-arabic), ui-sans-serif, system-ui, sans-serif;
+    --font-display: var(--font-noto-naskh), ui-serif, Georgia, serif;
+    --font-heading: var(--font-noto-naskh), ui-serif, Georgia, serif;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    text-rendering: optimizeLegibility;
+    transition:
+      background-color 0.28s var(--ease-editorial),
+      color 0.28s var(--ease-editorial);
+  }
+
+  /* Range inputs are used as the accessible control behind custom sliders. */
+  input[type="range"].sr-slider {
+    appearance: none;
+    background: transparent;
+    cursor: ew-resize;
+  }
+  input[type="range"].sr-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 2.75rem;
+    height: 100%;
+    background: transparent;
+    cursor: ew-resize;
+  }
+  input[type="range"].sr-slider::-moz-range-thumb {
+    width: 2.75rem;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    cursor: ew-resize;
+  }
+
+  ::selection {
+    background: color-mix(in oklch, var(--leaf) 32%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+html[data-magicui-theme-vt="active"]::view-transition-new(root) {
+  clip-path: var(--magicui-theme-vt-clip-from);
+}
+
+:root {
+  --duration-exit: 150ms;
+  --duration-enter: 210ms;
+  --duration-move: 400ms;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide {
+  from { translate: var(--slide-offset); }
+  to { translate: 0; }
+}
+
+::view-transition-old(.nav-forward) {
+  --slide-offset: -60px;
+  animation:
+    var(--duration-exit) ease-in both fade reverse,
+    var(--duration-move) ease-in-out both slide reverse;
+}
+::view-transition-new(.nav-forward) {
+  --slide-offset: 60px;
+  animation:
+    var(--duration-enter) ease-out var(--duration-exit) both fade,
+    var(--duration-move) ease-in-out both slide;
+}
+::view-transition-old(.nav-back) {
+  --slide-offset: 60px;
+  animation:
+    var(--duration-exit) ease-in both fade reverse,
+    var(--duration-move) ease-in-out both slide reverse;
+}
+::view-transition-new(.nav-back) {
+  --slide-offset: -60px;
+  animation:
+    var(--duration-enter) ease-out var(--duration-exit) both fade,
+    var(--duration-move) ease-in-out both slide;
+}
+
+::view-transition-group(.text-morph) {
+  animation-duration: var(--duration-move);
+}
+::view-transition-old(.text-morph) {
+  display: none;
+}
+::view-transition-new(.text-morph) {
+  animation: none;
+  object-fit: none;
+  object-position: left top;
+}
+
+@keyframes publication-leave {
+  to {
+    opacity: 0;
+    transform: translateY(-0.75rem) scale(0.985);
+  }
+}
+
+@keyframes publication-enter {
+  from {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.985);
+  }
+}
+
+::view-transition-group(.publication-item) {
+  animation-duration: 480ms;
+  animation-timing-function: var(--ease-editorial);
+}
+
+::view-transition-old(.publication-item) {
+  animation: 180ms ease-in both publication-leave;
+}
+
+::view-transition-new(.publication-item) {
+  animation: 420ms var(--ease-editorial) 60ms both publication-enter;
+}
+
+::view-transition-group(site-header),
+::view-transition-group(site-footer) {
+  animation: none;
+  z-index: 100;
+}
+::view-transition-old(site-header),
+::view-transition-new(site-header),
+::view-transition-old(site-footer),
+::view-transition-new(site-footer) {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*),
+  ::view-transition-new(*),
+  ::view-transition-group(*) {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+  }
+}
