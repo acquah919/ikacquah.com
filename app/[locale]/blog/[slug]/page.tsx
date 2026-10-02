@@ -9,17 +9,23 @@ import { ArticleToc } from "@/components/blog/article-toc";
 import { DisplayHeading } from "@/components/editorial/display-heading";
 import { Eyebrow } from "@/components/editorial/eyebrow";
 import { DirectionalTransition } from "@/components/motion/directional-transition";
-import type { Locale } from "@/i18n/config";
-import { Link } from "@/i18n/navigation";
-import { getPost, listPosts } from "@/lib/blog";
-import { extractHeadings } from "@/lib/headings";
-import { alternatesFor } from "@/lib/seo";
-import { routing } from "@/i18n/routing";
+import { displayName, professor } from "@/data/professor";
+import { defaultLocale, type Locale } from "@/i18n/config";
+import { getPathname, Link } from "@/i18n/navigation";
+import { getPost, listAvailablePosts, postLocales } from "@/lib/blog";
 import { formatDate } from "@/lib/date";
+import { extractHeadings } from "@/lib/headings";
+import {
+  absoluteUrl,
+  alternatesForAvailableLocales,
+  ogLocales,
+  serializeJsonLd,
+} from "@/lib/seo";
+import { routing } from "@/i18n/routing";
 
 export async function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    listPosts(locale).map((post) => ({ locale, slug: post.slug })),
+    listAvailablePosts(locale).map((post) => ({ locale, slug: post.slug })),
   );
 }
 
@@ -28,28 +34,95 @@ type BlogArticleProps = { params: Promise<{ locale: string; slug: string }> };
 export async function generateMetadata({ params }: BlogArticleProps): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
-  const post = getPost(locale as Locale, slug);
+
+  const typedLocale = locale as Locale;
+  const post = getPost(typedLocale, slug);
   if (!post) return {};
+
+  const availableLocales = postLocales(slug);
+  const fallback = post.sourceLocale !== typedLocale;
+  const href = `/blog/${slug}`;
+  const canonicalPath = getPathname({ locale: post.sourceLocale, href });
+
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: alternatesFor(locale as Locale, `/blog/${slug}`),
+    alternates: alternatesForAvailableLocales(
+      post.sourceLocale,
+      href,
+      availableLocales,
+    ),
+    robots: fallback ? { index: false, follow: true } : undefined,
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url: canonicalPath,
+      siteName: displayName,
+      publishedTime: post.date,
+      modifiedTime: post.updated,
+      authors: [displayName],
+      tags: post.tags,
+      ...ogLocales(post.sourceLocale, availableLocales),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+    },
   };
 }
 
 export default async function BlogArticle({ params }: BlogArticleProps) {
   const { locale, slug } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
-  const post = getPost(locale as Locale, slug);
+
+  const typedLocale = locale as Locale;
+  const post = getPost(typedLocale, slug);
   if (!post) notFound();
+
   const t = await getTranslations({ locale, namespace: "Blog" });
-  const fallback = post.sourceLocale !== locale;
+  const fallback = post.sourceLocale !== typedLocale;
   const headings = extractHeadings(post.body);
+  const articlePath = getPathname({
+    locale: post.sourceLocale,
+    href: `/blog/${slug}`,
+  });
+  const articleUrl = absoluteUrl(articlePath);
+  const authorUrl = absoluteUrl(
+    getPathname({ locale: defaultLocale, href: "/" }),
+  );
+  const articleJsonLd = serializeJsonLd({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${articleUrl}#blog-posting`,
+    headline: post.title,
+    description: post.excerpt,
+    url: articleUrl,
+    mainEntityOfPage: articleUrl,
+    datePublished: post.date,
+    ...(post.updated ? { dateModified: post.updated } : {}),
+    inLanguage: post.sourceLocale,
+    articleSection: post.category,
+    keywords: post.tags,
+    author: {
+      "@type": "Person",
+      "@id": absoluteUrl("/#person"),
+      name: professor.fullName,
+      honorificPrefix: professor.honorific,
+      url: authorUrl,
+    },
+  });
 
   return (
     <DirectionalTransition>
       <main id="main" className="flex-1">
         <article className="bg-background pt-32 pb-32 text-foreground md:pt-40">
+          <script
+            id="blog-posting-jsonld"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: articleJsonLd }}
+          />
           <div className="container-editorial grid gap-16 lg:grid-cols-12">
             <aside className="hidden lg:col-span-3 lg:block">
               <div className="sticky top-32">

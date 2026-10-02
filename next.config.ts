@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
     imageSizes: [96, 128, 256, 384],
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
+  async headers() {
+    return [
+      {
+        // The current CV asset is explicitly marked as a placeholder in
+        // `data/professor.ts`. Keep it downloadable for layout testing, but
+        // don't let search engines index the placeholder PDF. Remove this
+        // header when the verified CV replaces the placeholder.
+        source: "/cv/Isaac-Kwesi-Acquah-CV.pdf",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);
