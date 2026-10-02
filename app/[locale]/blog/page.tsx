@@ -8,9 +8,9 @@ import { Eyebrow } from "@/components/editorial/eyebrow";
 import { DirectionalTransition } from "@/components/motion/directional-transition";
 import { displayName } from "@/data/professor";
 import type { Locale } from "@/i18n/config";
-import { Link } from "@/i18n/navigation";
+import { getPathname, Link } from "@/i18n/navigation";
 import { listPosts } from "@/lib/blog";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, ogLocales } from "@/lib/seo";
 import { routing } from "@/i18n/routing";
 import { formatDate } from "@/lib/date";
 
@@ -20,10 +20,27 @@ export async function generateMetadata({ params }: BlogIndexProps): Promise<Meta
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "Blog" });
+  const title = t("eyebrow");
+  const description = t("lead");
+  const typedLocale = locale as Locale;
+
   return {
-    title: t("eyebrow"),
-    description: t("lead"),
-    alternates: alternatesFor(locale as Locale, "/blog"),
+    title,
+    description,
+    alternates: alternatesFor(typedLocale, "/blog"),
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: getPathname({ locale: typedLocale, href: "/blog" }),
+      siteName: displayName,
+      ...ogLocales(typedLocale),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
@@ -59,6 +76,7 @@ export default async function BlogIndex({ params }: BlogIndexProps) {
                     <li>
                       <Link
                         href={`/blog/${post.slug}`}
+                        locale={post.sourceLocale !== locale ? post.sourceLocale : undefined}
                         transitionTypes={["nav-forward"]}
                         prefetch
                         className="group grid gap-4 py-10 md:grid-cols-12 md:items-baseline"

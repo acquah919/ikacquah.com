@@ -7,6 +7,7 @@ export interface BlogFrontmatter {
   title: string;
   excerpt: string;
   date: string;
+  updated?: string;
   category?: string;
   tags?: string[];
   /** Slug of the original article when this file is a translation. */
@@ -20,6 +21,7 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   date: string;
+  updated?: string;
   category?: string;
   tags?: string[];
   readingTime: number;
@@ -61,6 +63,7 @@ function readLocaleDir(locale: Locale): Omit<BlogPost, "sourceLocale">[] {
         title: fm.title,
         excerpt: fm.excerpt,
         date: fm.date,
+        updated: fm.updated,
         category: fm.category,
         tags: fm.tags,
         readingTime: estimateReadingTime(content),
@@ -73,6 +76,11 @@ function readLocaleDir(locale: Locale): Omit<BlogPost, "sourceLocale">[] {
 
 function withSource(posts: Omit<BlogPost, "sourceLocale">[], sourceLocale: Locale): BlogPost[] {
   return posts.map((post) => ({ ...post, sourceLocale }));
+}
+
+/** Posts physically available for a locale, without language fallback. */
+export function listAvailablePosts(locale: Locale): BlogPost[] {
+  return withSource(readLocaleDir(locale), locale);
 }
 
 /** Posts for a locale, falling back to English when that locale has none. */
