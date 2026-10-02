@@ -1,6 +1,10 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Dr Isaac Kwesi Acquah",
+  "short_name": "Dr Isaac Acquah",
+  "description": "Academic portfolio of Dr Isaac Kwesi Acquah, medical physicist, lecturer, researcher and consultant in medical physics and physics education.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

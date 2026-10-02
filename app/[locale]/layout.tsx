@@ -8,7 +8,6 @@ import {
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import Script from "next/script";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { CookieBanner } from "@/components/consent/cookie-banner";
@@ -21,7 +20,13 @@ import { researchAreas } from "@/data/research";
 import { getDirection } from "@/i18n/config";
 import { localize } from "@/i18n/localized";
 import { routing } from "@/i18n/routing";
-import { absoluteUrl, ogLocales, siteUrl } from "@/lib/seo";
+import {
+  absoluteUrl,
+  isIndexableEnvironment,
+  ogLocales,
+  serializeJsonLd,
+  siteUrl,
+} from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -68,36 +73,61 @@ export async function generateMetadata({
     name: displayName,
     title: localize(professor.title, locale),
   });
+  const description = localize(professor.shortBio, locale);
+  const homePath = `/${locale}`;
 
   return {
     metadataBase: siteUrl,
     title: { default: title, template: `%s | ${displayName}` },
-    description: localize(professor.shortBio, locale),
+    description,
     applicationName: displayName,
-    authors: [{ name: displayName }],
+    authors: [{ name: displayName, url: absoluteUrl(homePath) }],
     creator: displayName,
     openGraph: {
       type: "profile",
+      title,
+      description,
+      url: homePath,
       siteName: displayName,
       firstName: "Isaac Kwesi",
       lastName: "Acquah",
       ...ogLocales(locale),
     },
-    twitter: { card: "summary_large_image" },
-    robots: { index: true, follow: true },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+    robots: isIndexableEnvironment
+      ? {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+            "max-video-preview": -1,
+          },
+        }
+      : { index: false, follow: false },
   };
 }
 
 function personJsonLd(locale: (typeof routing.locales)[number]) {
-  const data = {
+  return serializeJsonLd({
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": absoluteUrl("/#person"),
     name: professor.fullName,
     honorificPrefix: professor.honorific,
     jobTitle: localize(professor.title, locale),
     description: localize(professor.shortBio, locale),
     image: absoluteUrl(professor.portrait.src),
     url: absoluteUrl(`/${locale}`),
+    sameAs: professor.links
+      .filter((link) => link.external)
+      .map((link) => link.href),
     worksFor: {
       "@type": "CollegeOrUniversity",
       name: localize(professor.current.institution, locale),
@@ -113,10 +143,9 @@ function personJsonLd(locale: (typeof routing.locales)[number]) {
       addressLocality: "Winneba",
       addressCountry: professor.countryCode,
     },
-    knowsAbout: researchAreas.map(area => localize(area.title, locale)),
+    knowsAbout: researchAreas.map((area) => localize(area.title, locale)),
     knowsLanguage: routing.locales,
-  };
-  return JSON.stringify(data).replace(/</g, "\\u003c");
+  });
 }
 
 export default async function LocaleLayout({
@@ -161,10 +190,9 @@ export default async function LocaleLayout({
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
-        <Script
+        <script
           id="person-jsonld"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: personJsonLd(locale) }}
         />
         <Analytics />

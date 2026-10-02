@@ -6,11 +6,13 @@ import { DirectionalTransition } from "@/components/motion/directional-transitio
 import { PublicationLibrary } from "@/components/publications/publication-library";
 import { PublicationsHero } from "@/components/publications/publications-hero";
 import { publications } from "@/data/publications";
+import { displayName } from "@/data/professor";
 import { researchAreas } from "@/data/research";
 import type { Locale } from "@/i18n/config";
 import { localize } from "@/i18n/localized";
+import { getPathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, ogLocales } from "@/lib/seo";
 
 type PublicationsPageProps = { params: Promise<{ locale: string }> };
 
@@ -21,10 +23,27 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "Publications" });
 
+  const title = t("metaTitle");
+  const description = t("metaDescription");
+  const typedLocale = locale as Locale;
+
   return {
-    title: t("metaTitle"),
-    description: t("metaDescription"),
-    alternates: alternatesFor(locale as Locale, "/publications"),
+    title,
+    description,
+    alternates: alternatesFor(typedLocale, "/publications"),
+    openGraph: {
+      type: "website",
+      title,
+      description,
+      url: getPathname({ locale: typedLocale, href: "/publications" }),
+      siteName: displayName,
+      ...ogLocales(typedLocale),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 

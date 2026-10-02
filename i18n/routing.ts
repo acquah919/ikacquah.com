@@ -8,6 +8,10 @@ export const routing = defineRouting({
   // every page has a unique, indexable address per language.
   localePrefix: "always",
   localeDetection: true,
+  // We generate hreflang/canonical metadata ourselves so pages that are only
+  // available in some languages (for example blog posts) can advertise only
+  // their real translations.
+  alternateLinks: false,
   // URL prefix, remembered cookie, then Accept-Language, then English.
   localeCookie: { maxAge: LOCALE_COOKIE_MAX_AGE },
 });
