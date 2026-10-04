@@ -148,7 +148,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-0.5 md:gap-1">
           <LanguageSwitcher className="hidden md:inline-flex" />
           <ThemeToggle className="hidden md:inline-flex" />
-          <Button
+          {/* <Button
             size="sm"
             variant="outline"
             nativeButton={false}
@@ -159,7 +159,7 @@ export function SiteHeader() {
           >
             {t("downloadCv")}
             <Download aria-hidden className="size-3.5" />
-          </Button>
+          </Button> */}
           <div className="lg:hidden">
             <MobileMenu />
           </div>

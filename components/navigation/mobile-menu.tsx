@@ -45,7 +45,9 @@ export function MobileMenu() {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger render={<Button variant="ghost" size="sm" className="-me-2 text-sm" />}>
+      <SheetTrigger
+        render={<Button variant="ghost" size="sm" className="-me-2 text-sm" />}
+      >
         {tCommon("menu")}
       </SheetTrigger>
       <SheetContent
@@ -60,7 +62,12 @@ export function MobileMenu() {
 
         <div className="container-editorial flex h-20 shrink-0 items-center justify-between">
           <Wordmark onClick={close} transitionTypes={["nav-back"]} />
-          <Button variant="ghost" size="sm" className="-me-2 text-sm" onClick={close}>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="-me-2 text-sm"
+            onClick={close}
+          >
             {tCommon("close")}
           </Button>
         </div>
@@ -76,7 +83,9 @@ export function MobileMenu() {
               <Link
                 href={navHref(entry)}
                 onClick={close}
-                transitionTypes={entry.pathname !== "/" ? ["nav-forward"] : undefined}
+                transitionTypes={
+                  entry.pathname !== "/" ? ["nav-forward"] : undefined
+                }
                 className="group flex items-baseline gap-5 border-b border-foreground/10 py-4"
               >
                 <span className="text-eyebrow w-6 tabular-nums text-muted-foreground">
@@ -92,23 +101,29 @@ export function MobileMenu() {
 
         <motion.div
           initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0, transition: { delay: 0.45, duration: 0.6, ease: editorialEase } }}
+          animate={{
+            opacity: 1,
+            y: 0,
+            transition: { delay: 0.45, duration: 0.6, ease: editorialEase },
+          }}
           className="container-editorial mt-auto grid gap-8 pb-10 pt-6 sm:grid-cols-2"
         >
           <div>
-            <p className="text-eyebrow mb-3 text-muted-foreground">{tFooter("language")}</p>
+            <p className="text-eyebrow mb-3 text-muted-foreground">
+              {tFooter("language")}
+            </p>
             <LanguageSwitcher variant="list" />
           </div>
           <div className="flex flex-col items-start gap-4">
             <ThemeToggle withLabel className="-ms-3" />
-            <Button
+            {/* <Button
               variant="outline"
               nativeButton={false}
               render={<a href={professor.cv.href} download={professor.cv.fileName} />}
             >
               {t("downloadCv")}
               <Download aria-hidden className="size-4" />
-            </Button>
+            </Button> */}
           </div>
         </motion.div>
       </SheetContent>
