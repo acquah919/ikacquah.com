@@ -39,13 +39,13 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
             <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
               <Reveal className="flex flex-col gap-6 lg:col-span-5">
                 <DisplayHeading as="p" size="md">
-                 {displayName}
+                  {displayName}
                   <span className="text-accent">.</span>
                 </DisplayHeading>
                 <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
                   {localize(footer.descriptor, locale)}
                 </p>
-                <a
+                {/* <a
                   href={professor.cv.href}
                   download={professor.cv.fileName}
                   className="group inline-flex items-center gap-2 text-sm text-foreground/80 transition-colors hover:text-accent"
@@ -55,7 +55,7 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
                     className="size-4 transition-transform duration-300 group-hover:translate-y-0.5"
                   />
                   {t("cv")}
-                </a>
+                </a> */}
               </Reveal>
 
               <Reveal

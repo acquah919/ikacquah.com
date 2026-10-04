@@ -17,7 +17,11 @@ export async function Connection({ locale }: { locale: Locale }) {
   const ui = await getTranslations({ locale, namespace: "Sections" });
 
   return (
-    <Section id={sectionIds.connect} theme="ivory" aria-labelledby="connection-heading">
+    <Section
+      id={sectionIds.connect}
+      theme="ivory"
+      aria-labelledby="connection-heading"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(70%_60%_at_50%_100%,rgb(20_92_99/0.14),transparent_70%)] dark:bg-[radial-gradient(70%_60%_at_50%_100%,rgb(79_163_165/0.16),transparent_70%)]"
@@ -39,15 +43,25 @@ export async function Connection({ locale }: { locale: Locale }) {
 
         <div className="mt-16 grid gap-12 lg:grid-cols-12 lg:items-start">
           <Reveal className="lg:col-span-5">
-            <p className="text-lead text-muted-foreground">{t(connection.body)}</p>
+            <p className="text-lead text-muted-foreground">
+              {t(connection.body)}
+            </p>
           </Reveal>
 
-          <Reveal delay={0.1} className="flex flex-col gap-10 lg:col-span-5 lg:col-start-8">
+          <Reveal
+            delay={0.1}
+            className="flex flex-col gap-10 lg:col-span-5 lg:col-start-8"
+          >
             <ul className="flex flex-col gap-3">
-              {t(connection.invitations).map((item) => (
-                <li key={item} className="flex items-center gap-4 text-foreground">
+              {t(connection.invitations).map(item => (
+                <li
+                  key={item}
+                  className="flex items-center gap-4 text-foreground"
+                >
                   <span aria-hidden className="h-px w-6 bg-accent" />
-                  <span className="text-[0.9375rem] leading-relaxed">{item}</span>
+                  <span className="text-[0.9375rem] leading-relaxed">
+                    {item}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -55,15 +69,21 @@ export async function Connection({ locale }: { locale: Locale }) {
             <dl className="grid gap-6 border-t border-border pt-8 sm:grid-cols-2">
               {professor.email && (
                 <div className="flex flex-col gap-2">
-                  <dt className="text-eyebrow text-muted-foreground">{ui("emailLabel")}</dt>
+                  <dt className="text-eyebrow text-muted-foreground">
+                    {ui("emailLabel")}
+                  </dt>
                   <dd>
                     <EmailReveal email={professor.email} className="text-sm" />
                   </dd>
                 </div>
               )}
               <div className="flex flex-col gap-2">
-                <dt className="text-eyebrow text-muted-foreground">{ui("locationLabel")}</dt>
-                <dd className="text-sm text-foreground">{t(professor.location)}</dd>
+                <dt className="text-eyebrow text-muted-foreground">
+                  {ui("locationLabel")}
+                </dt>
+                <dd className="text-sm text-foreground">
+                  {t(professor.location)}
+                </dd>
               </div>
             </dl>
 
@@ -83,17 +103,22 @@ export async function Connection({ locale }: { locale: Locale }) {
                   </Button>
                 </Magnetic>
               )}
-              <Magnetic>
+              {/* <Magnetic>
                 <Button
                   size="lg"
                   variant="ghost"
                   nativeButton={false}
-                  render={<a href={professor.cv.href} download={professor.cv.fileName} />}
+                  render={
+                    <a
+                      href={professor.cv.href}
+                      download={professor.cv.fileName}
+                    />
+                  }
                 >
                   {t(connection.secondaryCta)}
                   <Download aria-hidden className="size-4" />
                 </Button>
-              </Magnetic>
+              </Magnetic> */}
             </div>
           </Reveal>
         </div>
