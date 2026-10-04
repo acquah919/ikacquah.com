@@ -106,7 +106,7 @@ export function HeroStage({
               {primaryCta}
               <ArrowDown aria-hidden className="size-4" />
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               nativeButton={false}
@@ -114,7 +114,7 @@ export function HeroStage({
             >
               {secondaryCta}
               <Download aria-hidden className="size-4" />
-            </Button>
+            </Button> */}
           </motion.div>
         </div>
 
