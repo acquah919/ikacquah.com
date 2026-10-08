@@ -1,4 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { ArticleFigure } from "@/components/blog/article-figure";
 import { slugify } from "@/lib/headings";
 
 function textOf(node: React.ReactNode): string {
@@ -17,6 +18,7 @@ function heading(Tag: "h2" | "h3") {
 }
 
 const components = {
+  ArticleFigure,
   h2: heading("h2"),
   h3: heading("h3"),
 };
