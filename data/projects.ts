@@ -21,7 +21,7 @@ export interface Project {
   status: "in-development" | "completed";
   platform: string;
   version: string;
-  previewUrl: string;
+  apkDownloadUrl: string;
   story: {
     motivation: Localized<string[]>;
     vision: Localized<string>;
@@ -45,7 +45,8 @@ export const projects: Project[] = [
     status: "in-development",
     platform: "Android",
     version: "1.0.0",
-    previewUrl: "https://expo.dev/accounts/ikacquahs-team/projects/radpulse-africa/builds/b3bf204d-5bd1-4c1e-ad3c-506147da6829",
+    // Expo expires this artifact on 2026-10-30; replace this shared URL before then.
+    apkDownloadUrl: "https://expo.dev/artifacts/eas/MG1COCzqmUL2sdreJePeIcJGFezFMTJUMYmKPryvH4s.apk",
     story: {
       motivation: en([
         "Quality control does not end with a measurement. Medical physicists and radiographers also need to document readings, interpret results, maintain equipment histories, and prepare reports, often across different healthcare facilities.",

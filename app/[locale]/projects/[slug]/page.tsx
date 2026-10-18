@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { locale as getRootLocale } from "next/root-params";
 import { RouteFallback } from "@/components/navigation/route-fallback";
 import { Suspense } from "react";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Download } from "lucide-react";
 import { hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -12,7 +12,7 @@ import { DevicePair } from "@/components/projects/device-pair";
 import { PhoneFrame } from "@/components/projects/phone-frame";
 import { ProjectWalkthrough } from "@/components/projects/project-walkthrough";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { creatorScreen, getProject, projects } from "@/data/projects";
 import { displayName } from "@/data/professor";
 import type { Locale } from "@/i18n/config";
@@ -85,7 +85,7 @@ async function ProjectPageContent({ params, locale }: ProjectPageProps & { local
                 <Reveal initial={false} delay={0.18}><p className="mt-5 max-w-lg text-base leading-relaxed text-muted-foreground" lang="en" dir="ltr">{localize(project.summary, typedLocale)}</p></Reveal>
                 <Reveal initial={false} delay={0.24} className="mt-9 flex flex-wrap items-center gap-5">
                   <Button nativeButton={false} render={<a href="#application" />}>{t("seeItInAction")}<ArrowLeft data-icon="inline-end" className="-rotate-90" /></Button>
-                  <a href={project.previewUrl} target="_blank" rel="noopener noreferrer" className="project-action inline-flex items-center gap-2 text-sm font-medium">{t("preview")}<ArrowUpRight className="size-4 rtl:-scale-x-100" aria-hidden="true" /></a>
+                  <a href={project.apkDownloadUrl} className="project-action inline-flex items-center gap-2 text-sm font-medium">{t("downloadApk")}<Download className="size-4" aria-hidden="true" /></a>
                 </Reveal>
                 <Reveal initial={false} delay={0.3}><p className="mt-7 text-sm text-muted-foreground">{project.platform} <span aria-hidden="true">/</span> {t("version", { version: project.version })}</p></Reveal>
               </div>
@@ -146,7 +146,7 @@ async function ProjectPageContent({ params, locale }: ProjectPageProps & { local
               <p className="text-lg leading-relaxed" lang="en" dir="ltr">{localize(project.story.development, typedLocale)}</p>
               <p className="mt-5 text-base leading-relaxed text-muted-foreground">{t("feedback")}</p>
               <div className="mt-8 flex flex-col items-start gap-5">
-                <Button nativeButton={false} render={<a href={project.previewUrl} target="_blank" rel="noopener noreferrer" />}>{t("preview")}<ArrowUpRight data-icon="inline-end" className="rtl:-scale-x-100" /></Button>
+                <a href={project.apkDownloadUrl} className={buttonVariants()}>{t("downloadApk")}<Download data-icon="inline-end" aria-hidden="true" /></a>
                 <Link href={{ pathname: "/", hash: "connect" }} className="project-action inline-flex items-center gap-2 text-base">{t("shareFeedback")}<ArrowUpRight aria-hidden="true" className="size-4 rtl:-scale-x-100" /></Link>
               </div>
             </div>
