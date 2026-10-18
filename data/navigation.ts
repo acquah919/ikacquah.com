@@ -16,6 +16,7 @@ export const sectionIds = {
 export const primaryNavigation: NavItem[] = [
   { key: "about", pathname: "/", hash: sectionIds.about, enabled: true },
   { key: "research", pathname: "/", hash: sectionIds.research, enabled: true },
+  { key: "projects", pathname: "/projects", enabled: true },
   { key: "services", pathname: "/", hash: sectionIds.services, enabled: true },
   { key: "contact", pathname: "/", hash: sectionIds.connect, enabled: true },
   { key: "publications", pathname: "/publications", enabled: true },

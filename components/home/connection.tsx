@@ -2,7 +2,7 @@ import { ArrowUpRight, Download } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Section } from "@/components/editorial/section";
 import { SectionHeading } from "@/components/editorial/section-heading";
-import { EmailReveal } from "@/components/layout/email-reveal";
+import { EmailLink } from "@/components/layout/email-link";
 import { Magnetic } from "@/components/motion/magnetic";
 import { Reveal } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
@@ -73,7 +73,7 @@ export async function Connection({ locale }: { locale: Locale }) {
                     {ui("emailLabel")}
                   </dt>
                   <dd>
-                    <EmailReveal email={professor.email} className="text-sm" />
+                    <EmailLink email={professor.email} className="text-sm" />
                   </dd>
                 </div>
               )}

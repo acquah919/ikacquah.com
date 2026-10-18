@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-18T02:53:58.364Z",
+  "cacheComponents": true,
+  "partialPrefetching": true,
+  "retainedProductionTests": {
+    "command": "NEXT_NAV_TEST=1 bunx playwright test",
+    "passed": 18,
+    "total": 18,
+    "exitCode": 0
+  },
+  "build": {
+    "command": "bun run build",
+    "exitCode": 0
+  },
+  "typecheck": {
+    "command": "bunx tsc --noEmit",
+    "exitCode": 0
+  },
+  "focusedLint": {
+    "exitCode": 0,
+    "newErrors": 0
+  },
+  "globalLint": {
+    "exitCode": 1,
+    "existingErrors": 7,
+    "existingWarnings": 5,
+    "files": [
+      "app/global-error.tsx",
+      "components/blog/article-reactions.tsx",
+      "components/theme/theme-provider.tsx",
+      "components/theme/theme-toggle.tsx"
+    ]
+  },
+  "developmentSweep": {
+    "pagesPassed": 37,
+    "hydrationMismatchesAfterRepair": 0,
+    "catchAllFollowup": "catch-all-final.json"
+  },
+  "prefetchDifferential": {
+    "links": [
+      "RadPulse catalogue title",
+      "Explore the project"
+    ],
+    "withoutProps": {
+      "readinessFailures": 2,
+      "shellAndReleaseDiagnosticsPassed": 2
+    },
+    "restoredProps": {
+      "bothPassed": true
+    }
+  },
+  "productionTestingApi": false,
+  "isolatedTestingApi": true,
+  "blogPageSize": 6,
+  "currentPostCount": 4,
+  "footerAppearance": "preserved",
+  "publicationsPacketHash": "dbd26cd77bb060573dca83e11a03d98a69b58db0",
+  "notes": [
+    "Unknown slug responses stream the not-found page/noindex after HTTP200; generic catch-all remains HTTP404.",
+    "No commit, merge, push or deployment."
+  ]
+}

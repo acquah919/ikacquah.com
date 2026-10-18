@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { locale as getRootLocale } from "next/root-params";
 import { hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -55,8 +56,8 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
   };
 }
 
-export default async function Home({ params }: PageProps<"/[locale]">) {
-  const { locale } = await params;
+export default async function Home() {
+  const locale = await getRootLocale();
   if (!hasLocale(routing.locales, locale)) notFound();
 
   const profileUrl = absoluteUrl(getPathname({ locale, href: "/" }));

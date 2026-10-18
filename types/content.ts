@@ -16,9 +16,9 @@ export interface Link {
 
 /** A primary navigation entry; the label comes from the `Nav` messages. */
 export interface NavItem {
-  key: "about" | "research" | "publications" | "services" | "contact" | "blog";
+  key: "about" | "research" | "projects" | "publications" | "services" | "contact" | "blog";
   /** Locale-aware pathname. Homepage acts also carry a `hash`. */
-  pathname: "/" | "/publications" | "/blog";
+  pathname: "/" | "/projects" | "/publications" | "/blog";
   hash?: string;
   /** Hidden until the destination route ships. */
   enabled: boolean;
@@ -45,7 +45,7 @@ export interface Professor {
   values: Localized<string[]>;
   shortBio: Localized<string>;
   portrait: Image;
-  /** Stored plainly; rendered obfuscated until the visitor reveals it. */
+  /** Public professional contact address. */
   email?: string;
   cv: { href: string; fileName: string; placeholder: boolean };
   /** Academic profile links; empty until personal URLs are supplied. */
