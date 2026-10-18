@@ -1,4 +1,5 @@
 import { en, type Localized } from "@/i18n/localized";
+import type { Image } from "@/types/content";
 
 export type AppAppearance = "light" | "dark";
 export type PhoneDevice = "android" | "iphone";
@@ -18,6 +19,7 @@ export interface Project {
   tagline: Localized<string>;
   summary: Localized<string>;
   category: Localized<string>;
+  previewImage?: Image;
   status: "in-development" | "completed";
   platform: string;
   version: string;
@@ -42,6 +44,12 @@ export const projects: Project[] = [
     tagline: en("The beat of diagnosis, quality and safety."),
     summary: en("A digital quality-control notebook for medical physicists and radiographers, bringing diagnostic imaging equipment checks, records, and reporting together on a phone."),
     category: en("Healthcare technology"),
+    previewImage: {
+      src: "/assets/projects/radpulse-africa/project-preview.webp",
+      alt: en("RadPulse Africa project overview with application screens, quality-control features, and supported imaging modalities."),
+      width: 590,
+      height: 526,
+    },
     status: "in-development",
     platform: "Android",
     version: "1.0.0",

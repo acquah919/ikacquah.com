@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { locale as getRootLocale } from "next/root-params";
 import { ArrowUpRight } from "lucide-react";
 import { hasLocale } from "next-intl";
@@ -46,7 +47,7 @@ export default async function ProjectsPage() {
           </div>
         </section>
 
-        {projects.map(project => (
+        {projects.map((project, index) => (
           <article key={project.slug} className="project-feature py-16 md:py-24">
             <div className="container-editorial grid items-center gap-14 lg:grid-cols-2 lg:gap-16">
               <div className="flex flex-col items-start">
@@ -66,7 +67,23 @@ export default async function ProjectsPage() {
                   </Link>
                 </Reveal>
               </div>
-              <Reveal initial={false} delay={0.12}><DevicePair screens={project.screens} locale={typedLocale} /></Reveal>
+              <Reveal initial={false} delay={0.12} className="min-w-0">
+                {project.previewImage ? (
+                  <figure className="mx-auto w-fit max-w-full rounded-3xl bg-background p-2 ring-1 ring-foreground/10 ease-(--ease-editorial) hover:shadow-lg hover:shadow-foreground/10 hover:ring-accent/30 motion-safe:transition-[transform,box-shadow] motion-safe:duration-500 motion-safe:hover:-translate-y-1 sm:rounded-[2rem] sm:p-3">
+                    <Image
+                      src={project.previewImage.src}
+                      alt={localize(project.previewImage.alt, typedLocale)}
+                      width={project.previewImage.width}
+                      height={project.previewImage.height}
+                      priority={index === 0}
+                      unoptimized
+                      className="h-auto max-w-full rounded-2xl sm:rounded-[1.375rem]"
+                    />
+                  </figure>
+                ) : (
+                  <DevicePair screens={project.screens} locale={typedLocale} />
+                )}
+              </Reveal>
             </div>
           </article>
         ))}
