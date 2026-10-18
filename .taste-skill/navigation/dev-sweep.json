@@ -1,0 +1,729 @@
+{
+  "startedAt": "2026-10-18T02:41:38.855Z",
+  "base": "http://localhost:3000",
+  "configuration": {
+    "cacheComponents": true,
+    "partialPrefetching": true,
+    "reducedMotion": "reduce"
+  },
+  "repair": {
+    "file": "components/hero/hero-stage.tsx",
+    "change": "Use the existing hydration-safe reduced-motion hook for the initial HeroStage render.",
+    "beforeEvidence": "dev-sweep-before.json",
+    "beforeHydrationMismatches": 5
+  },
+  "routes": [
+    {
+      "path": "/en",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en",
+      "headings": [
+        "Physicsthat movesMedicineforward."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/projects",
+      "headings": [
+        "Ideas, put to work."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/publications",
+      "headings": [
+        "Research,in print."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/fr",
+      "headings": [
+        "Une physiquequi fait avancerla médecine."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/fr/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/blog",
+      "headings": [
+        "Notes et perspectives."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/projects",
+      "headings": [
+        "Des idées en pratique."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/publications",
+      "headings": [
+        "La recherche,sur papier."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/es",
+      "headings": [
+        "Físicaque hace avanzarla medicina."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/es/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/blog",
+      "headings": [
+        "Notas y perspectivas."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/projects",
+      "headings": [
+        "Ideas en práctica."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/publications",
+      "headings": [
+        "Investigación,en papel."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/pt",
+      "headings": [
+        "Físicaque faz avançara medicina."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/pt/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/blog",
+      "headings": [
+        "Notas e perspetivas."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/projects",
+      "headings": [
+        "Ideias na prática."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/publications",
+      "headings": [
+        "Investigação,em papel."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/ar",
+      "headings": [
+        "فيزياءتحرّكالطبإلى الأمام."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/ar/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/blog",
+      "headings": [
+        "ملاحظات ورؤى."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/projects",
+      "headings": [
+        "أفكار قيد التطبيق."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/publications",
+      "headings": [
+        "البحث،على الورق."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/the-beauty-of-being-a-beginner",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/the-beauty-of-being-a-beginner",
+      "headings": [
+        "The Beauty of Being a Beginner: Why We Need to Stop Rushing Through Life"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/breast-cancer-what-i-wish-everyone-knew",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/breast-cancer-what-i-wish-everyone-knew",
+      "headings": [
+        "Breast Cancer: What I Wish Everyone Knew from a Medical Physicist’s Point of View"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/football-is-back",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/football-is-back",
+      "headings": [
+        "Football Is Back. Please Cancel the Wedding."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/welcome-to-a-new-semester",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/welcome-to-a-new-semester",
+      "headings": [
+        "Welcome to a New Semester: Learning, Building and Exploring Physics Together"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/blog/the-beauty-of-being-a-beginner",
+      "kind": "article",
+      "status": 200,
+      "url": "http://localhost:3000/fr/blog/the-beauty-of-being-a-beginner",
+      "headings": [
+        "The Beauty of Being a Beginner: Why We Need to Stop Rushing Through Life"
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, follow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/projects/no-such-project",
+      "kind": "unknown",
+      "status": 200,
+      "url": "http://localhost:3000/en/projects/no-such-project",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex",
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/no-such-article",
+      "kind": "unknown",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog/no-such-article",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex",
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/no-such-page",
+      "kind": "unknown",
+      "status": 404,
+      "url": "http://localhost:3000/en/no-such-page",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow",
+        "noindex"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        },
+        {
+          "kind": "error",
+          "message": "Error: Route \"/[locale]/[...rest]\": Could not validate `instant` because an error prevented the target segment from rendering.\n    at resolveErrorDev (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1937:105)\n    at getOutlinedModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1487:28)\n    at parseModelString (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1602:50)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2544:66)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2547:61)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2626:112)\n    at parseModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2539:16)\n    at initializeModelChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1100:25)\n    at resolveModelChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1000:43)\n    at processFullStringRow (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2495:126)\n    at processFullBinaryRow (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2415:9)\n    at processBinaryChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2524:221)\n    at progress (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2711:13)"
+        }
+      ]
+    }
+  ],
+  "mcp": {
+    "get_errors": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"configErrors\":[],\"sessionErrors\":[{\"url\":\"/en/no-such-page\",\"buildError\":null,\"runtimeErrors\":[{\"type\":\"console\",\"errorName\":\"Error\",\"message\":\"Route \\\"/[locale]/[...rest]\\\": Could not validate `instant` because an error prevented the target segment from rendering.\",\"stack\":[]}]}]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ],
+    "get_compilation_issues": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"issues\":[]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ]
+  },
+  "finishedAt": "2026-10-18T02:42:19.591Z",
+  "summary": {
+    "total": 37,
+    "renderPassed": 37,
+    "renderFailed": 0,
+    "hydrationMismatches": 0,
+    "applicationErrors": [
+      {
+        "kind": "error",
+        "message": "Error: Route \"/[locale]/[...rest]\": Could not validate `instant` because an error prevented the target segment from rendering.\n    at resolveErrorDev (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1937:105)\n    at getOutlinedModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1487:28)\n    at parseModelString (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1602:50)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2544:66)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2547:61)\n    at reviveModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2626:112)\n    at parseModel (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2539:16)\n    at initializeModelChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1100:25)\n    at resolveModelChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:1000:43)\n    at processFullStringRow (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2495:126)\n    at processFullBinaryRow (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2415:9)\n    at processBinaryChunk (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2524:221)\n    at progress (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js:2711:13)"
+      }
+    ],
+    "expectedNotFoundNetworkErrors": [
+      {
+        "kind": "error",
+        "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      }
+    ],
+    "motionPreferenceWarnings": 13
+  }
+}

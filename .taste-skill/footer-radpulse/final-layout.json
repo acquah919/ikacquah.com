@@ -1,0 +1,124 @@
+[
+  {
+    "locale": "en",
+    "width": 320,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1207.25,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1184.5,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1107.828125,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 496,
+    "position": "fixed",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 496,
+    "position": "fixed",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1184.5,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1161.75,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 1085.078125,
+    "position": "static",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 496,
+    "position": "fixed",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "pass": true,
+    "clipped": [],
+    "overflow": false,
+    "footerHeight": 496,
+    "position": "fixed",
+    "signature": false,
+    "languages": 5
+  },
+  {
+    "name": "Playback translation fr",
+    "pass": true
+  },
+  {
+    "name": "Playback translation es",
+    "pass": true
+  },
+  {
+    "name": "Playback translation pt",
+    "pass": true
+  }
+]

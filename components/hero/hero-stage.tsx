@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import { ArrowDown, Download } from "lucide-react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/editorial/eyebrow";
 import { SplitLines } from "@/components/motion/split-lines";
 import { sectionIds } from "@/data/navigation";
 import type { DisplayLine } from "@/data/home";
+import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import { Link } from "@/i18n/navigation";
 import { HeroBackdrop } from "./hero-backdrop";
 
@@ -38,7 +39,7 @@ export function HeroStage({
   cv,
   portrait,
 }: HeroStageProps) {
-  const reduce = useReducedMotion();
+  const reduce = usePrefersReducedMotion();
   const displayLines = lines.map((line) => ({
     text: line.text,
     className: line.style === "caps" ? "uppercase" : "italic text-accent",

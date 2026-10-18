@@ -1,19 +1,13 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
-import { Download } from "lucide-react";
-import { motion } from "motion/react";
+import { Suspense, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "@/components/i18n/language-switcher";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
-import { Button } from "@/components/ui/button";
-import { navHref, visibleNavigation } from "@/data/navigation";
-import { professor } from "@/data/professor";
-import { useActiveSection } from "@/hooks/use-active-section";
-import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { MobileMenu } from "./mobile-menu";
 import { Wordmark } from "./wordmark";
+import { NavigationLinks, RouteNavigation, RouteWordmark } from "./route-navigation";
 
 type SurfaceTheme = "light" | "dark";
 type HeaderState = `${"top" | "scrolled"}|${SurfaceTheme}`;
@@ -45,15 +39,7 @@ function readHeaderState(): HeaderState {
   return `${window.scrollY > 24 ? "scrolled" : "top"}|${readSurfaceTheme()}`;
 }
 
-const indicatorSpring = {
-  type: "spring",
-  stiffness: 420,
-  damping: 32,
-  mass: 0.7,
-} as const;
-
 export function SiteHeader() {
-  const t = useTranslations("Header");
   const tNav = useTranslations("Nav");
   const state = useSyncExternalStore(
     subscribeToViewport,
@@ -65,11 +51,7 @@ export function SiteHeader() {
     SurfaceTheme,
   ];
   const scrolled = position === "scrolled";
-  const pathname = usePathname();
-  const activeId = useActiveSection(
-    visibleNavigation.map(item => item.hash ?? ""),
-  );
-  const [hovered, setHovered] = useState<string | null>(null);
+
 
   return (
     <header
@@ -93,74 +75,18 @@ export function SiteHeader() {
             : "container-editorial h-20 md:h-24",
         )}
       >
-        <Wordmark
-          transitionTypes={pathname !== "/" ? ["nav-back"] : undefined}
-        />
-
-        <ul
-          className="hidden items-center lg:flex"
-          onPointerLeave={() => setHovered(null)}
-        >
-          {visibleNavigation.map(item => {
-            const isActive = item.hash
-              ? item.hash === activeId
-              : pathname === item.pathname;
-            return (
-              <li key={item.key} className="relative">
-                <Link
-                  href={navHref(item)}
-                  transitionTypes={
-                    item.pathname !== "/" ? ["nav-forward"] : undefined
-                  }
-                  onPointerEnter={() => setHovered(item.key)}
-                  onFocus={() => setHovered(item.key)}
-                  onBlur={() => setHovered(null)}
-                  className={cn(
-                    "relative block rounded-full px-3 py-2 text-[0.8125rem] font-medium tracking-tight transition-colors duration-300 xl:px-3.5",
-                    isActive || hovered === item.key
-                      ? "text-foreground"
-                      : "text-muted-foreground",
-                  )}
-                >
-                  {hovered === item.key && (
-                    <motion.span
-                      layoutId="nav-hover"
-                      aria-hidden
-                      transition={indicatorSpring}
-                      className="absolute inset-0 rounded-full bg-foreground/[0.06]"
-                    />
-                  )}
-                  <span className="relative z-10">{tNav(item.key)}</span>
-                  {isActive && (
-                    <motion.span
-                      layoutId="nav-active"
-                      aria-hidden
-                      transition={indicatorSpring}
-                      className="absolute bottom-0.5 start-1/2 size-1 -translate-x-1/2 rounded-full bg-accent"
-                    />
-                  )}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <Suspense fallback={<Wordmark />}>
+          <RouteWordmark />
+        </Suspense>
+        <Suspense fallback={<NavigationLinks />}>
+          <RouteNavigation />
+        </Suspense>
 
         <div className="flex items-center gap-0.5 md:gap-1">
           <LanguageSwitcher className="hidden md:inline-flex" />
           <ThemeToggle className="hidden md:inline-flex" />
-          {/* <Button
-            size="sm"
-            variant="outline"
-            nativeButton={false}
-            className="ms-1 hidden md:inline-flex"
-            render={
-              <a href={professor.cv.href} download={professor.cv.fileName} />
-            }
-          >
-            {t("downloadCv")}
-            <Download aria-hidden className="size-3.5" />
-          </Button> */}
-          <div className="lg:hidden">
+
+          <div className="xl:hidden">
             <MobileMenu />
           </div>
         </div>

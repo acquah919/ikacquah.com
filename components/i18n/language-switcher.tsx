@@ -1,6 +1,6 @@
 "use client";
 
-import { useTransition } from "react";
+import { Suspense, useTransition } from "react";
 import { Check, ChevronDown, Languages } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
@@ -16,7 +16,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { allLocales, isLocale, localeRegistry, type Locale } from "@/i18n/config";
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 interface LanguageSwitcherProps {
@@ -28,23 +28,42 @@ interface LanguageSwitcherProps {
 function useSwitchLocale() {
   const locale = useLocale();
   const router = useRouter();
-  const pathname = usePathname();
   const [pending, startTransition] = useTransition();
 
   const switchTo = (next: string) => {
     if (!isLocale(next) || !localeRegistry[next].enabled || next === locale) return;
-    const { hash } = window.location;
+    const { pathname: currentPathname, search, hash } = window.location;
+    const prefix = `/${locale}`;
+    const pathname = currentPathname === prefix || currentPathname.startsWith(`${prefix}/`)
+      ? currentPathname.slice(prefix.length) || "/"
+      : currentPathname;
     startTransition(() => {
-      router.replace(`${pathname}${hash}`, { locale: next });
+      router.replace(`${pathname}${search}${hash}`, { locale: next });
     });
   };
 
   return { locale, pending, switchTo };
 }
 
-export function LanguageSwitcher({ variant = "dropdown", className }: LanguageSwitcherProps) {
+export function LanguageSwitcher(props: LanguageSwitcherProps) {
+  return (
+    <Suspense fallback={<LanguageSwitcherView {...props} pending />}>
+      <InteractiveLanguageSwitcher {...props} />
+    </Suspense>
+  );
+}
+
+function InteractiveLanguageSwitcher(props: LanguageSwitcherProps) {
+  const { pending, switchTo } = useSwitchLocale();
+  return <LanguageSwitcherView {...props} pending={pending} switchTo={switchTo} />;
+}
+
+function LanguageSwitcherView({ variant = "dropdown", className, pending, switchTo }: LanguageSwitcherProps & {
+  pending: boolean;
+  switchTo?: (locale: string) => void;
+}) {
   const t = useTranslations("Language");
-  const { locale, pending, switchTo } = useSwitchLocale();
+  const locale = useLocale();
   const enabled = allLocales.filter((l) => localeRegistry[l].enabled);
   const planned = allLocales.filter((l) => !localeRegistry[l].enabled);
   const current = localeRegistry[locale];
@@ -61,7 +80,7 @@ export function LanguageSwitcher({ variant = "dropdown", className }: LanguageSw
                 type="button"
                 disabled={!def.enabled || pending}
                 aria-current={active ? "true" : undefined}
-                onClick={() => switchTo(code)}
+                onClick={() => switchTo?.(code)}
                 className="flex w-full items-center justify-between gap-4 border-b border-foreground/10 py-3 text-start text-sm transition-colors duration-300 enabled:hover:text-accent disabled:cursor-default disabled:text-muted-foreground/60"
               >
                 <span lang={code}>{def.nativeLabel}</span>
@@ -81,6 +100,7 @@ export function LanguageSwitcher({ variant = "dropdown", className }: LanguageSw
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
+        disabled={pending}
         render={
           <Button
             variant="ghost"
@@ -100,7 +120,7 @@ export function LanguageSwitcher({ variant = "dropdown", className }: LanguageSw
             {t("label")}
           </DropdownMenuLabel>
         </DropdownMenuGroup>
-        <DropdownMenuRadioGroup value={locale} onValueChange={(value) => switchTo(String(value))}>
+        <DropdownMenuRadioGroup value={locale} onValueChange={(value) => switchTo?.(String(value))}>
           {enabled.map((code) => (
             <DropdownMenuRadioItem
               key={code}

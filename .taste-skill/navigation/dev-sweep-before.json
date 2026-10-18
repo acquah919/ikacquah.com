@@ -1,0 +1,806 @@
+{
+  "startedAt": "2026-10-18T02:37:28.213Z",
+  "base": "http://localhost:3000",
+  "configuration": {
+    "cacheComponents": true,
+    "partialPrefetching": true
+  },
+  "routes": [
+    {
+      "path": "/en",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en",
+      "headings": [
+        "Physicsthat movesMedicineforward."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "error",
+          "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"en/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/en\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/en\" tree={[...]} params={{locale:\"en\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Medical Ph...\" roles={[...]} lines={[...]} lead=\"Research a...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Research at the meeting point of physics and medicine: MRI-only radiotherapy and ...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+        }
+      ]
+    },
+    {
+      "path": "/en/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/projects",
+      "headings": [
+        "Ideas, put to work."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/en/publications",
+      "headings": [
+        "Research,in print."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/fr",
+      "headings": [
+        "Une physiquequi fait avancerla médecine."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        },
+        {
+          "kind": "error",
+          "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"fr/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/fr\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/fr\" tree={[...]} params={{locale:\"fr\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Physicien ...\" roles={[...]} lines={[...]} lead=\"Recherche ...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Recherche au point de rencontre de la physique et de la médecine : radiothérapie ...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+        }
+      ]
+    },
+    {
+      "path": "/fr/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/blog",
+      "headings": [
+        "Notes et perspectives."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/projects",
+      "headings": [
+        "Des idées en pratique."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/fr/publications",
+      "headings": [
+        "La recherche,sur papier."
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/es",
+      "headings": [
+        "Físicaque hace avanzarla medicina."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        },
+        {
+          "kind": "error",
+          "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"es/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/es\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/es\" tree={[...]} params={{locale:\"es\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Físico médico\" roles={[...]} lines={[...]} lead=\"Investigac...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Investigación en el encuentro de la física y la medicina: radioterapia solo con R...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+        }
+      ]
+    },
+    {
+      "path": "/es/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/blog",
+      "headings": [
+        "Notas y perspectivas."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/projects",
+      "headings": [
+        "Ideas en práctica."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/es/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/es/publications",
+      "headings": [
+        "Investigación,en papel."
+      ],
+      "locale": "es",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/pt",
+      "headings": [
+        "Físicaque faz avançara medicina."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/pt/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/blog",
+      "headings": [
+        "Notas e perspetivas."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "error",
+          "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"pt/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/pt\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/pt\" tree={[...]} params={{locale:\"pt\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Físico médico\" roles={[...]} lines={[...]} lead=\"Investigaç...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Investigação no encontro da física e da medicina: radioterapia só com RM e CT sin...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+        }
+      ]
+    },
+    {
+      "path": "/pt/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/projects",
+      "headings": [
+        "Ideias na prática."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/pt/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/pt/publications",
+      "headings": [
+        "Investigação,em papel."
+      ],
+      "locale": "pt",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/ar",
+      "headings": [
+        "فيزياءتحرّكالطبإلى الأمام."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        },
+        {
+          "kind": "error",
+          "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"ar/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/ar\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/ar\" tree={[...]} params={{locale:\"ar\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"فيزيائي طبي\" roles={[...]} lines={[...]} lead=\"بحث عند ال...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     بحث عند التقاء الفيزياء والطب: العلاج الإشعاعي بالرنين المغناطيسي وحده والتصوير ا...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+        }
+      ]
+    },
+    {
+      "path": "/ar/blog",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/blog",
+      "headings": [
+        "ملاحظات ورؤى."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/projects",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/projects",
+      "headings": [
+        "أفكار قيد التطبيق."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/projects/radpulse-africa",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/projects/radpulse-africa",
+      "headings": [
+        "RadPulse Africa"
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/ar/publications",
+      "kind": "route",
+      "status": null,
+      "url": "http://localhost:3000/ar/publications",
+      "headings": [
+        "البحث،على الورق."
+      ],
+      "locale": "ar",
+      "direction": "rtl",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/the-beauty-of-being-a-beginner",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/the-beauty-of-being-a-beginner",
+      "headings": [
+        "The Beauty of Being a Beginner: Why We Need to Stop Rushing Through Life"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/breast-cancer-what-i-wish-everyone-knew",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/breast-cancer-what-i-wish-everyone-knew",
+      "headings": [
+        "Breast Cancer: What I Wish Everyone Knew from a Medical Physicist’s Point of View"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/football-is-back",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/football-is-back",
+      "headings": [
+        "Football Is Back. Please Cancel the Wedding."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/en/blog",
+      "kind": "route",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog",
+      "headings": [
+        "Notes & perspectives."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/welcome-to-a-new-semester",
+      "kind": "article",
+      "status": null,
+      "url": "http://localhost:3000/en/blog/welcome-to-a-new-semester",
+      "headings": [
+        "Welcome to a New Semester: Learning, Building and Exploring Physics Together"
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [],
+      "result": "pass",
+      "issues": []
+    },
+    {
+      "path": "/fr/blog/the-beauty-of-being-a-beginner",
+      "kind": "article",
+      "status": 200,
+      "url": "http://localhost:3000/fr/blog/the-beauty-of-being-a-beginner",
+      "headings": [
+        "The Beauty of Being a Beginner: Why We Need to Stop Rushing Through Life"
+      ],
+      "locale": "fr",
+      "direction": "ltr",
+      "robots": [
+        "noindex, follow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/projects/no-such-project",
+      "kind": "unknown",
+      "status": 200,
+      "url": "http://localhost:3000/en/projects/no-such-project",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex",
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/blog/no-such-article",
+      "kind": "unknown",
+      "status": 200,
+      "url": "http://localhost:3000/en/blog/no-such-article",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex",
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    },
+    {
+      "path": "/en/no-such-page",
+      "kind": "unknown",
+      "status": 404,
+      "url": "http://localhost:3000/en/no-such-page",
+      "headings": [
+        "This page is not here."
+      ],
+      "locale": "en",
+      "direction": "ltr",
+      "robots": [
+        "noindex, nofollow",
+        "noindex"
+      ],
+      "result": "pass",
+      "issues": [
+        {
+          "kind": "error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "kind": "warning",
+          "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+        }
+      ]
+    }
+  ],
+  "mcp": {
+    "get_errors": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"configErrors\":[],\"sessionErrors\":[]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ],
+    "get_compilation_issues": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"issues\":[]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ]
+  },
+  "finishedAt": "2026-10-18T02:38:16.109Z",
+  "summary": {
+    "total": 37,
+    "passed": 37,
+    "failed": 0,
+    "applicationErrors": [
+      {
+        "kind": "error",
+        "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"en/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/en\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/en\" tree={[...]} params={{locale:\"en\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Medical Ph...\" roles={[...]} lines={[...]} lead=\"Research a...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Research at the meeting point of physics and medicine: MRI-only radiotherapy and ...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+      },
+      {
+        "kind": "error",
+        "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"fr/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/fr\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/fr\" tree={[...]} params={{locale:\"fr\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Physicien ...\" roles={[...]} lines={[...]} lead=\"Recherche ...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Recherche au point de rencontre de la physique et de la médecine : radiothérapie ...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+      },
+      {
+        "kind": "error",
+        "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"es/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/es\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/es\" tree={[...]} params={{locale:\"es\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Físico médico\" roles={[...]} lines={[...]} lead=\"Investigac...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Investigación en el encuentro de la física y la medicina: radioterapia solo con R...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+      },
+      {
+        "kind": "error",
+        "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"pt/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/pt\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/pt\" tree={[...]} params={{locale:\"pt\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"Físico médico\" roles={[...]} lines={[...]} lead=\"Investigaç...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     Investigação no encontro da física e da medicina: radioterapia só com RM e CT sin...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+      },
+      {
+        "kind": "error",
+        "message": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <LoadingBoundary name=\"ar/\" loading={null}>\n      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>\n        <HTTPAccessFallbackErrorBoundary pathname=\"/ar\" notFound={<SegmentViewNode>} forbidden={undefined} ...>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/ar\" tree={[...]} params={{locale:\"ar\"}} cacheNode={{rsc:{...}, ...}} ...>\n                <SegmentViewNode type=\"page\" pagePath=\"[locale]/p...\">\n                  <SegmentTrieNode>\n                  <Home>\n                    <DirectionalTransition>\n                      <main id=\"main\" className=\"flex-1\">\n                        <script>\n                        <Hero>\n                          <HeroStage eyebrow=\"فيزيائي طبي\" roles={[...]} lines={[...]} lead=\"بحث عند ال...\" ...>\n                            <section aria-labelledby=\"hero-heading\" className=\"relative i...\">\n                              <motion.div initial={false} animate={{opacity:1}} transition={{duration:0.5, ...}} ...>\n                                <div\n                                  className=\"absolute inset-0 -z-10\"\n+                                 style={{opacity:1}}\n-                                 style={{opacity:\"0\"}}\n                                  ref={function useMotionRef.useCallback}\n                                >\n                              <div className=\"container-...\">\n                                <div className=\"relative z...\">\n                                  <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} className=\"flex flex-...\">\n                                    <div\n                                      className=\"flex flex-col gap-3\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(18px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                  <SplitLines>\n                                  <motion.p initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <p\n                                      className=\"text-lead mt-8 max-w-md text-muted-foreground md:mt-10\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(16px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n+                                     بحث عند التقاء الفيزياء والطب: العلاج الإشعاعي بالرنين المغناطيسي وحده والتصوير ا...\n                                  <motion.div initial={false} animate={{opacity:1,y:0}} transition={{type:\"spring\", ...}} ...>\n                                    <div\n                                      className=\"mt-10 flex flex-wrap items-center gap-3 md:mt-12\"\n                                      style={{\n+                                       opacity: 1\n-                                       opacity: \"0\"\n+                                       transform: \"none\"\n-                                       transform: \"translateY(14px)\"\n                                      }}\n                                      ref={function useMotionRef.useCallback}\n                                    >\n                                <motion.div initial={false} animate={{opacity:1,y:0,scale:1}} ...>\n                                  <div\n                                    className=\"portrait-plate relative z-0 mx-auto w-full max-w-[16rem] self-end sm:ma...\"\n                                    style={{\n+                                     opacity: 1\n-                                     opacity: \"0\"\n+                                     transform: \"none\"\n-                                     transform: \"translateY(36px) scale(0.96)\"\n                                    }}\n                                    ref={function useMotionRef.useCallback}\n                                  >\n                        ...\n                ...\n              ...\n"
+      },
+      {
+        "kind": "error",
+        "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      }
+    ],
+    "warnings": [
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      },
+      {
+        "kind": "warning",
+        "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+      }
+    ]
+  }
+}

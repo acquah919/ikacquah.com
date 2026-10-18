@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { ViewTransition } from "react";
+import { locale as getRootLocale } from "next/root-params";
+import { RouteFallback } from "@/components/navigation/route-fallback";
+import { Suspense, ViewTransition } from "react";
 import { hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -73,7 +75,18 @@ export async function generateMetadata({ params }: BlogArticleProps): Promise<Me
 }
 
 export default async function BlogArticle({ params }: BlogArticleProps) {
-  const { locale, slug } = await params;
+  const locale = await getRootLocale();
+  if (!hasLocale(routing.locales, locale)) notFound();
+  const t = await getTranslations({ locale, namespace: "Blog" });
+  return (
+    <Suspense fallback={<DirectionalTransition><main id="main" className="flex-1"><RouteFallback title={t("title")} href="/blog" label={t("eyebrow")} /></main></DirectionalTransition>}>
+      <BlogArticleContent params={params} locale={locale} />
+    </Suspense>
+  );
+}
+
+async function BlogArticleContent({ params, locale }: BlogArticleProps & { locale: Locale }) {
+  const { slug } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
 
   const typedLocale = locale as Locale;

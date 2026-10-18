@@ -1,0 +1,531 @@
+[
+  {
+    "name": "Exact build links @390",
+    "pass": true
+  },
+  {
+    "name": "Immediate play feedback @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0263398, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Five-second advance @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "2",
+      "activeScale": "matrix(0.0611144, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Pause holds screen @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "2",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Resume starts fresh interval @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "2",
+      "activeScale": "matrix(0.272762, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Resume advances @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-tasks",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "3",
+      "activeScale": "matrix(0.0554922, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Manual selection pauses @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-about",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "6",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Play from final chapter restarts immediately @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0389528, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Natural end offers Replay @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-about",
+      "playing": false,
+      "label": "Replay demo",
+      "progress": "6",
+      "activeScale": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Replay restarts @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0353132, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Visibility handler pauses @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Becoming visible stays paused @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Offscreen viewer pauses @390",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Creator screenshot frame 1 theme 1 @390",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 265.2628173828125,
+      "height": 542.3150634765625
+    }
+  },
+  {
+    "name": "Creator screenshot frame 1 theme 2 @390",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 265.2628173828125,
+      "height": 542.3150634765625
+    }
+  },
+  {
+    "name": "Creator screenshot frame 2 theme 1 @390",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 251.859375,
+      "height": 501.796875
+    }
+  },
+  {
+    "name": "Creator screenshot frame 2 theme 2 @390",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 251.859375,
+      "height": 501.796875
+    }
+  },
+  {
+    "name": "No image warnings after cached reload @390",
+    "pass": true,
+    "evidence": []
+  },
+  {
+    "name": "No browser exceptions @390",
+    "pass": true,
+    "evidence": []
+  },
+  {
+    "name": "Exact build links @1440",
+    "pass": true
+  },
+  {
+    "name": "Immediate play feedback @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0375346, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Five-second advance @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "2",
+      "activeScale": "matrix(0.052743, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Pause holds screen @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "2",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Resume starts fresh interval @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-equipment",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "2",
+      "activeScale": "matrix(0.277497, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Resume advances @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-tasks",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "3",
+      "activeScale": "matrix(0.0527378, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Manual selection pauses @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-about",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "6",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Play from final chapter restarts immediately @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0361132, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Natural end offers Replay @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-about",
+      "playing": false,
+      "label": "Replay demo",
+      "progress": "6",
+      "activeScale": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Replay restarts @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": true,
+      "label": "Pause demo",
+      "progress": "1",
+      "activeScale": "matrix(0.0374388, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Visibility handler pauses @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Becoming visible stays paused @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Offscreen viewer pauses @1440",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "Play demo",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Creator screenshot frame 1 theme 1 @1440",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 265.2628173828125,
+      "height": 542.3150634765625
+    }
+  },
+  {
+    "name": "Creator screenshot frame 1 theme 2 @1440",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 265.2628173828125,
+      "height": 542.3150634765625
+    }
+  },
+  {
+    "name": "Creator screenshot frame 2 theme 1 @1440",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 251.859375,
+      "height": 501.796875
+    }
+  },
+  {
+    "name": "Creator screenshot frame 2 theme 2 @1440",
+    "pass": true,
+    "evidence": {
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75",
+      "loaded": true,
+      "position": "absolute",
+      "explicit": "absolute",
+      "width": 251.859375,
+      "height": 501.796875
+    }
+  },
+  {
+    "name": "No image warnings after cached reload @1440",
+    "pass": true,
+    "evidence": []
+  },
+  {
+    "name": "No browser exceptions @1440",
+    "pass": true,
+    "evidence": []
+  },
+  {
+    "name": "Restored footer and image bounds light @320",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds dark @320",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds light @390",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds dark @390",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds light @768",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds dark @768",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds light @1024",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds dark @1024",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds light @1440",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Restored footer and image bounds dark @1440",
+    "pass": true,
+    "evidence": {
+      "overflow": false,
+      "restored": true,
+      "email": "ikacquah@uew.edu.gh",
+      "languages": 5,
+      "invalidParents": 0
+    }
+  },
+  {
+    "name": "Arabic localized playback and reduced motion",
+    "pass": true,
+    "evidence": {
+      "dir": "rtl",
+      "status": "الشاشة 1 من 6قيد التشغيل",
+      "barAnimation": "none",
+      "overflow": false
+    }
+  },
+  {
+    "name": "Keyboard Space pauses playback",
+    "pass": true,
+    "evidence": {
+      "chapter": "chapter-home",
+      "playing": false,
+      "label": "تشغيل العرض",
+      "progress": "1",
+      "activeScale": "matrix(0, 0, 0, 1, 0, 0)"
+    }
+  },
+  {
+    "name": "Readable initial walkthrough without JavaScript",
+    "pass": true,
+    "evidence": {
+      "chapter": "Your QC notebook",
+      "opacity": "1",
+      "width": 265.2628173828125,
+      "email": "ikacquah@uew.edu.gh"
+    }
+  }
+]
