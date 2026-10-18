@@ -1,0 +1,252 @@
+{
+  "download": {
+    "url": "https://wf-artifacts.eascdn.net/builds/internal-st/f79fac88-9d3b-4a6f-b502-a324ebc18c07/b3bf204d-5bd1-4c1e-ad3c-506147da6829/01a14718-f6cf-712e-8534-2067df7f72e5/application-b3bf204d-5bd1-4c1e-ad3c-506147da6829.apk",
+    "filename": "application-b3bf204d-5bd1-4c1e-ad3c-506147da6829.apk",
+    "pageUrl": "http://localhost:3000/en/projects/radpulse-africa",
+    "pages": 1
+  },
+  "downloadCancelledAfterStart": true,
+  "layouts": [
+    {
+      "locale": "en",
+      "theme": "light",
+      "width": 390,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 20,
+          "y": 647.375,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 20,
+          "y": 478.09375,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "width": 768,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 209.390625,
+          "y": 490.203125,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 30.71875,
+          "y": 477.8125,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 236.265625,
+          "y": 490.34375,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 853.734375,
+          "y": 477.875,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "width": 390,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 20,
+          "y": 490.375,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 20,
+          "y": 478.09375,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "width": 768,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 209.390625,
+          "y": 490.203125,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 30.71875,
+          "y": 477.8125,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "width": 1440,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 236.265625,
+          "y": 490.34375,
+          "width": 172.078125,
+          "height": 20
+        },
+        {
+          "x": 853.734375,
+          "y": 477.875,
+          "width": 215.078125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "width": 390,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 79.15625,
+          "y": 595.375,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 182.609375,
+          "y": 477.84375,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "width": 768,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 446.4375,
+          "y": 490.203125,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 549.890625,
+          "y": 478.21875,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "width": 1440,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 1091.5625,
+          "y": 490.34375,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 398.875,
+          "y": 477.625,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 79.15625,
+          "y": 490.375,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 182.609375,
+          "y": 477.84375,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "width": 768,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 446.4375,
+          "y": 490.203125,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 549.890625,
+          "y": 478.21875,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "overflow": false,
+      "bounds": [
+        {
+          "x": 1091.5625,
+          "y": 490.34375,
+          "width": 139.484375,
+          "height": 20
+        },
+        {
+          "x": 398.875,
+          "y": 477.625,
+          "width": 187.390625,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}
