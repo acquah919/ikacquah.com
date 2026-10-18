@@ -262,7 +262,7 @@ No test command is configured, so there is no unit-test gate yet. Run `/tests`
 or `$tests` to add a runner and record the real test command here. No Verify
 command or GitHub checks exist yet; run `/ci` or `$ci` to set them up.
 
-Browser testing is also opt-in. Run `/browser-tests` or `$browser-tests` to add
-or normalize a browser harness and document its exact command as `Browser
-tests`. Check and Continuous Mode can then reuse it without installing tooling
-mid-feature.
+Browser tests: `bun run test:browser` (production navigation and blog smoke checks).
+This builds isolated output in `.next-navigation` and starts a runner-owned
+server on port 3100. Windows uses installed Edge; other systems need Playwright
+Chromium or `PLAYWRIGHT_CHANNEL`. See `instant-nav.rig.md` for the tested contract.

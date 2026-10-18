@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Route /en/projects",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /en/projects/radpulse-africa",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /fr/projects",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /fr/projects/radpulse-africa",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /es/projects",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /es/projects/radpulse-africa",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /pt/projects",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /pt/projects/radpulse-africa",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /ar/projects",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Route /ar/projects/radpulse-africa",
+    "passed": true,
+    "evidence": 200
+  },
+  {
+    "name": "Unknown project returns 404",
+    "passed": true,
+    "evidence": 404
+  },
+  {
+    "name": "Sitemap contains both project routes for all five locales",
+    "passed": true,
+    "evidence": 10
+  },
+  {
+    "name": "Detail navigation stays active",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Your QC notebook",
+      "panel": "Your QC notebook",
+      "focused": "BODY",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "All seven supplied screenshots are available",
+    "passed": true,
+    "evidence": 7
+  },
+  {
+    "name": "Screen 1 selection",
+    "passed": true,
+    "evidence": "Your QC notebook"
+  },
+  {
+    "name": "Screen 2 selection",
+    "passed": true,
+    "evidence": "Imaging systems"
+  },
+  {
+    "name": "Screen 3 selection",
+    "passed": true,
+    "evidence": "A record of every visit"
+  },
+  {
+    "name": "Screen 4 selection",
+    "passed": true,
+    "evidence": "The next check"
+  },
+  {
+    "name": "Screen 5 selection",
+    "passed": true,
+    "evidence": "The tools around the test"
+  },
+  {
+    "name": "Screen 6 selection",
+    "passed": true,
+    "evidence": "A clear purpose"
+  },
+  {
+    "name": "Screen 7 selection",
+    "passed": true,
+    "evidence": "Experience behind the app"
+  },
+  {
+    "name": "Next wraps to first screen",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Your QC notebook",
+      "panel": "Your QC notebook",
+      "focused": "",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "Previous wraps to final screen",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Experience behind the app",
+      "panel": "Experience behind the app",
+      "focused": "",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "Home key selects and focuses first screen",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Your QC notebook",
+      "panel": "Your QC notebook",
+      "focused": "Your QC notebook",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "Arrow key selects and focuses next screen",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Imaging systems",
+      "panel": "Imaging systems",
+      "focused": "Imaging systems",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "End key selects final screen",
+    "passed": true,
+    "evidence": {
+      "title": "RadPulse Africa",
+      "overflow": 0,
+      "mainHeadings": 1,
+      "broken": [],
+      "selected": "Experience behind the app",
+      "panel": "Experience behind the app",
+      "focused": "Experience behind the app",
+      "activeNav": "Projects",
+      "theme": "light",
+      "dir": "ltr"
+    }
+  },
+  {
+    "name": "No browser exceptions during screen interactions",
+    "passed": true,
+    "evidence": []
+  },
+  {
+    "name": "Back link navigates to catalogue",
+    "passed": false,
+    "evidence": "/en/projects"
+  },
+  {
+    "name": "Project link navigates to detail",
+    "passed": false,
+    "evidence": "/en/projects"
+  },
+  {
+    "name": "Verification completed",
+    "passed": false,
+    "evidence": "Error: page eval: Error: Missing control: a[href=\"#application\"]\n    at <anonymous>:3:25\n    at <anonymous>:7:5\n    at Page.eval (file:///C:/Users/morte/.codex/skills/taste-skill/scripts/lib/cdp.mjs:167:13)\n    at async click (file:///C:/Users/morte/Desktop/ikacquah.com/.taste-skill/verify-projects.mjs:13:17)\n    at async file:///C:/Users/morte/Desktop/ikacquah.com/.taste-skill/verify-projects.mjs:88:3"
+  }
+]

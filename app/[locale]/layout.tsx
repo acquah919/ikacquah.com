@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { locale as getRootLocale } from "next/root-params";
 import {
   Fraunces,
   Noto_Naskh_Arabic,
@@ -150,9 +151,8 @@ function personJsonLd(locale: (typeof routing.locales)[number]) {
 
 export default async function LocaleLayout({
   children,
-  params,
 }: LayoutProps<"/[locale]">) {
-  const { locale } = await params;
+  const locale = await getRootLocale();
   if (!hasLocale(routing.locales, locale)) notFound();
   const t = await getTranslations({ locale, namespace: "Common" });
   const arabic = locale === "ar";

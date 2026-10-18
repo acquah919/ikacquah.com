@@ -28,6 +28,8 @@ export interface BlogPost {
   body: string;
 }
 
+export type BlogPostSummary = Pick<BlogPost, "slug" | "sourceLocale" | "title" | "date" | "category" | "tags" | "readingTime">;
+
 const BLOG_ROOT = path.join(process.cwd(), "content/blog");
 
 function estimateReadingTime(body: string): number {

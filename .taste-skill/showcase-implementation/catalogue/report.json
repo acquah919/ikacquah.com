@@ -1,0 +1,1339 @@
+{
+ "url": "http://localhost:3010/en/projects",
+ "at": "2026-10-17T22:31:44.180Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.57,
+    0.83,
+    0.76
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1965,
+     "screens": 2.2,
+     "words": 175,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse-africa",
+      "image?url=%2Fassets%2Fprojects%2Fradpulse-africa"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "chars": 19,
+     "lines": 1,
+     "size": 112.3,
+     "vw": 7.8,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.71,
+     "top": 199,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "lines": 1,
+     "size": 112.3,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Ideas, put to work.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 112.3,
+      "vw": 7.8,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 199,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 66.2,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 460,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 79.2,
+      "vw": 5.5,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 774,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      22,
+      66,
+      79,
+      112
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 57,
+     "max": {
+      "size": 112.3,
+      "vw": 7.8,
+      "font": "Fraunces",
+      "text": "Ideas, put to work."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.041,
+     "microSamples": [
+      "Projects",
+      "Healthcare technology",
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0.02,
+     "smallText": 3
+    },
+    "eyebrows": [
+     {
+      "text": "Projects",
+      "above": "Ideas, put to work.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 160
+     },
+     {
+      "text": "Healthcare technology",
+      "above": "RadPulse Africa",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 743
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 683
+     }
+    ],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#292319",
+       "top": 476,
+       "hsl": {
+        "h": 38,
+        "s": 0.24,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 1469,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a99b8b",
+       "share": 0.53
+      },
+      {
+       "color": "#f1e8dd",
+       "share": 0.44
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.03
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 1,
+     "heroLabels": [
+      "EN",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.phone-frame.device-pair-back → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0",
+      "div.phone-frame.device-pair-front → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.flex.flex-col 1325px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 4,
+     "boxRadius": 45,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 32,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.72,
+    0.85,
+    0.8
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2408,
+     "screens": 2.4,
+     "words": 167,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse-africa",
+      "image?url=%2Fassets%2Fprojects%2Fradpulse-africa"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "chars": 19,
+     "lines": 1,
+     "size": 59.9,
+     "vw": 7.8,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 199,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "lines": 1,
+     "size": 59.9,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Ideas, put to work.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 59.9,
+      "vw": 7.8,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 199,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 536,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 51.2,
+      "vw": 6.7,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 611,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      22,
+      35,
+      51,
+      60
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 57,
+     "max": {
+      "size": 59.9,
+      "vw": 7.8,
+      "font": "Fraunces",
+      "text": "Ideas, put to work."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.043,
+     "microSamples": [
+      "Projects",
+      "Healthcare technology",
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0.03,
+     "smallText": 3
+    },
+    "eyebrows": [
+     {
+      "text": "Projects",
+      "above": "Ideas, put to work.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 160
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 520
+     }
+    ],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#292319",
+       "top": 424,
+       "hsl": {
+        "h": 38,
+        "s": 0.24,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 1864,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a99b8b",
+       "share": 0.51
+      },
+      {
+       "color": "#f1e8dd",
+       "share": 0.46
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.03
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 1,
+     "heroLabels": [
+      "EN",
+      "Menu",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.phone-frame.device-pair-back → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0",
+      "div.phone-frame.device-pair-front → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 4,
+     "boxRadius": 45,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 32,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.68,
+    1,
+    0.67,
+    0.74
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3077,
+     "screens": 3.6,
+     "words": 166,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse-africa"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 54.4,
+     "vw": 13.9,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 167,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ideas, put to work.",
+     "words": 4,
+     "lines": 2,
+     "size": 54.4,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Dr Isaac Kwesi Acquah",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 30,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Ideas, put to work.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 167,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 13.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 592,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1956,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      22,
+      32,
+      51,
+      54
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 54.4,
+      "vw": 13.9,
+      "font": "Fraunces",
+      "text": "Ideas, put to work."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.043,
+     "microSamples": [
+      "Projects",
+      "Healthcare technology",
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0.04,
+     "smallText": 3
+    },
+    "eyebrows": [
+     {
+      "text": "Projects",
+      "above": "Ideas, put to work.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 128
+     },
+     {
+      "text": "Healthcare technology",
+      "above": "RadPulse Africa",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 561
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 501
+     }
+    ],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#292319",
+       "top": 437,
+       "hsl": {
+        "h": 38,
+        "s": 0.24,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#151816",
+       "top": 1031,
+       "hsl": {
+        "h": 140,
+        "s": 0.07,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#f1f5ef",
+       "top": 1057,
+       "hsl": {
+        "h": 100,
+        "s": 0.23,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 1892,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a99b8b",
+       "share": 0.51
+      },
+      {
+       "color": "#f1e8dd",
+       "share": 0.45
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.03
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.phone-frame.w-[250px] → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 2,
+     "boxRadius": 38,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 25,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 82,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"Projects\" above \"Ideas, put to work.\"; \"Healthcare technology\" above \"RadPulse Africa\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "4 tiny uppercase letter-spaced labels (e.g. \"Projects\", \"Healthcare technology\", \"Connect\", \"Language\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%) | div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%) | div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: div.phone-frame.device-pair-back → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0 | div.phone-frame.device-pair-front → oklch(0.934999 0.0180178 none / 0.35) 0px 28px 50px -25px, rgb(41, 46, 43) 0px 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.flex.flex-col 1325px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields."
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (button #f1e8dd, text #f1e8dd).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (11, 12, 13, 14, 16, 18, 22, 66, 79, 112).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6.5:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "3 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"Dr Isaac Kwesi Acquah.\" (screen 2, 25% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "clipped-text",
+   "width": 1440,
+   "message": "Large text is cut off along its top by the box that holds it: \"Dr Isaac Kwesi Acquah.\" (screen 2)",
+   "fix": "Jurors read a wordmark sliced at the top as broken. Give the box room for the ascenders (line-height and padding), or crop at the bottom or a side edge on purpose."
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 3 screens in a row: \"Dr Isaac Kwesi Acquah.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 15 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 768,
+   "message": "6 thin rule(s)/divider line(s): button.flex.w-full 707px | button.flex.w-full 707px | button.flex.w-full 707px | button.flex.w-full 707px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\desktop-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\showcase-implementation\\catalogue\\mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

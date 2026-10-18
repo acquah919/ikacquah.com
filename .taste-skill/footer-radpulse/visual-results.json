@@ -1,0 +1,154 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "footerHeight": 1004,
+    "signature": [
+      {
+        "text": "Dr Isaac Kwesi",
+        "x": 57.59375,
+        "right": 1382.40625,
+        "width": 1325
+      },
+      {
+        "text": "Dr Isaac",
+        "x": 57.59375,
+        "right": 595.015625,
+        "width": 0
+      },
+      {
+        "text": "Kwesi",
+        "x": 623.421875,
+        "right": 1015.5625,
+        "width": 0
+      },
+      {
+        "text": "Acquah",
+        "x": 57.59375,
+        "right": 1382.40625,
+        "width": 1325
+      }
+    ],
+    "clip": {
+      "x": 0,
+      "y": 5685.875,
+      "width": 1440,
+      "height": 1004,
+      "scale": 1
+    }
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "footerHeight": 940.21875,
+    "signature": [
+      {
+        "text": "Dr Isaac Kwesi",
+        "x": 30.71875,
+        "right": 737.28125,
+        "width": 707
+      },
+      {
+        "text": "Dr Isaac",
+        "x": 30.71875,
+        "right": 313.453125,
+        "width": 0
+      },
+      {
+        "text": "Kwesi",
+        "x": 328.125,
+        "right": 534.84375,
+        "width": 0
+      },
+      {
+        "text": "Acquah",
+        "x": 30.71875,
+        "right": 737.28125,
+        "width": 707
+      }
+    ],
+    "clip": {
+      "x": 0,
+      "y": 6936.8125,
+      "width": 768,
+      "height": 940.21875,
+      "scale": 1
+    }
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "footerHeight": 1106.09375,
+    "signature": [
+      {
+        "text": "Dr Isaac Kwesi",
+        "x": 20,
+        "right": 370,
+        "width": 350
+      },
+      {
+        "text": "Dr Isaac",
+        "x": 20,
+        "right": 370,
+        "width": 350
+      },
+      {
+        "text": "Kwesi",
+        "x": 20,
+        "right": 370,
+        "width": 350
+      },
+      {
+        "text": "Acquah",
+        "x": 20,
+        "right": 370,
+        "width": 354
+      }
+    ],
+    "clip": {
+      "x": 0,
+      "y": 7781.09375,
+      "width": 390,
+      "height": 1106.09375,
+      "scale": 1
+    }
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "footerHeight": 1105.984375,
+    "signature": [
+      {
+        "text": "Dr Isaac Kwesi",
+        "x": 20,
+        "right": 300,
+        "width": 280
+      },
+      {
+        "text": "Dr Isaac",
+        "x": 20,
+        "right": 300,
+        "width": 280
+      },
+      {
+        "text": "Kwesi",
+        "x": 20,
+        "right": 300,
+        "width": 280
+      },
+      {
+        "text": "Acquah",
+        "x": 20,
+        "right": 300,
+        "width": 289
+      }
+    ],
+    "clip": {
+      "x": 0,
+      "y": 8495.59375,
+      "width": 320,
+      "height": 1105.984375,
+      "scale": 1
+    }
+  }
+]

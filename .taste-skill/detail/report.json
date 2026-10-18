@@ -1,0 +1,1660 @@
+{
+ "url": "http://localhost:3000/en/projects/radpulse-africa",
+ "at": "2026-10-17T20:55:25.794Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.86,
+    0.61,
+    0.91,
+    0.52,
+    0.83,
+    0.6
+   ],
+   "motion": {
+    "elements": 34,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 32,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5247,
+     "screens": 5.8,
+     "words": 505,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome",
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 82.9,
+     "vw": 5.8,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.52,
+     "top": 350,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "lines": 1,
+     "size": 82.9,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 82.9,
+      "vw": 5.8,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 350,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 66.2,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 460,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Built from practice.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 70.7,
+      "vw": 4.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1112,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A closer look.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 70.7,
+      "vw": 4.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 1744,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your QC notebook",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.01,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 1945,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The work, connected.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 70.7,
+      "vw": 4.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 2779,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The thinking behind it.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 66.2,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 3814,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Still taking shape.",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 70.7,
+      "vw": 4.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 4343,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19,
+      22,
+      24,
+      37,
+      66,
+      71,
+      83
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.4
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 82.9,
+      "vw": 5.8,
+      "font": "Fraunces",
+      "text": "RadPulse Africa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.004,
+     "microSamples": [
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 0,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f1e8dd",
+       "share": 0.73
+      },
+      {
+       "color": "#a99b8b",
+       "share": 0.22
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.04
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 1,
+     "heroLabels": [
+      "EN",
+      "Explore on Expo",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 2,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.flex.flex-col 1325px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 3,
+     "boxRadius": 29,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 21,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.94,
+    0.61,
+    0.94,
+    0.69,
+    0.69,
+    0.5,
+    0.69
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 30,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6559,
+     "screens": 6.4,
+     "words": 497,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome",
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 54.7,
+     "vw": 7.1,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 236,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "lines": 1,
+     "size": 54.7,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 54.7,
+      "vw": 7.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 236,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 536,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Built from practice.",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 45.2,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 1445,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A closer look.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 45.2,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.67,
+      "top": 2766,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The work, connected.",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 45.2,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3668,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The thinking behind it.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 4903,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Still taking shape.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 45.2,
+      "vw": 5.9,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 5505,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      22,
+      24,
+      35,
+      45,
+      55
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.4
+     },
+     "measureChars": 88,
+     "max": {
+      "size": 54.7,
+      "vw": 7.1,
+      "font": "Fraunces",
+      "text": "RadPulse Africa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.004,
+     "microSamples": [
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 1
+    },
+    "eyebrows": [
+     {
+      "text": "All projects",
+      "above": "RadPulse Africa",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 160
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 0,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f1e8dd",
+       "share": 0.74
+      },
+      {
+       "color": "#a99b8b",
+       "share": 0.2
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.04
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 5,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 1,
+     "heroLabels": [
+      "EN",
+      "Menu",
+      "Explore on Expo",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 2,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px",
+      "button.flex.w-full 707px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 3,
+     "boxRadius": 29,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 21,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.97,
+    0.82,
+    0.83,
+    0.95,
+    0.53,
+    0.69,
+    0.8,
+    0.84,
+    0.74
+   ],
+   "motion": {
+    "elements": 34,
+    "css": 0,
+    "transitions": 2,
+    "scripted": 32,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 391,
+     "h": 847
+    },
+    "page": {
+     "height": 7162,
+     "screens": 8.5,
+     "words": 494,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome",
+      "image?url=%2Fassets%2Fprojects%2Fradpulse%2Fhome"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 40,
+     "vw": 10.2,
+     "font": "Fraunces",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 204,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RadPulse Africa",
+     "words": 2,
+     "lines": 1,
+     "size": 40,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Dr Isaac Kwesi Acquah",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 30,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "RadPulse Africa",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.2,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 204,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Built from practice.",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1317,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A closer look.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2495,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your QC notebook",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.01,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2644,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The work, connected.",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 3255,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Guided QC testing",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3475,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Automatic evaluation",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3647,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Equipment histories",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3793,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Reports to share",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3965,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Instrument management",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4111,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Planned checks",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.1,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4257,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "The thinking behind it.",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4883,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Still taking shape.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5453,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Dr Isaac Kwesi Acquah.",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Fraunces",
+      "weight": 700,
+      "tracking": -0.015,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6041,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Spline Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      22,
+      24,
+      32,
+      34,
+      40
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Spline Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.4
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 40,
+      "vw": 10.2,
+      "font": "Fraunces",
+      "text": "RadPulse Africa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.004,
+     "microSamples": [
+      "Connect",
+      "Language"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 1
+    },
+    "eyebrows": [
+     {
+      "text": "All projects",
+      "above": "RadPulse Africa",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 128
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#1e1810",
+     "bodyBgHsl": {
+      "h": 34,
+      "s": 0.3,
+      "l": 0.09
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1e1810",
+       "top": 0,
+       "hsl": {
+        "h": 34,
+        "s": 0.3,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#1c2215",
+       "top": 0,
+       "hsl": {
+        "h": 88,
+        "s": 0.24,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f1e8dd",
+       "share": 0.74
+      },
+      {
+       "color": "#a99b8b",
+       "share": 0.2
+      },
+      {
+       "color": "#95bd5d",
+       "share": 0.04
+      },
+      {
+       "color": "#1e1810",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f1e8dd",
+      "hsl": {
+       "h": 33,
+       "s": 0.42,
+       "l": 0.91
+      },
+      "fg": "#1e1810"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu",
+      "Explore on Expo",
+      "Accept",
+      "Decline"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 2,
+     "shadowSamples": [],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%)",
+      "div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%)",
+      "div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px",
+      "button.flex.w-full 350px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 3,
+     "boxRadius": 29,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 21,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 82,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "spline sans",
+     "spline sans fallback",
+     "fraunces"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "2 tiny uppercase letter-spaced label(s): \"Connect\", \"Language\"",
+   "fix": "Prefer sentence case at body size.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div.absolute.inset-0 → linear-gradient(lab(12.1009 -4.83383 7.45617) 0%, lab(12.1009 -4.83383 7.45617) 50%, rgb(15, 45, 50) 100%) | div.absolute.-bottom-1/2 → radial-gradient(closest-side, rgba(79, 163, 165, 0.2), rgba(0, 0, 0, 0) 70%) | div.absolute.-top-1/3 → radial-gradient(closest-side, rgba(82, 124, 136, 0.14), rgba(0, 0, 0, 0) 70%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.flex.flex-col 1325px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields."
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (button #f1e8dd, text #f1e8dd).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "13 different font sizes (11, 12, 13, 14, 16, 18, 19, 22, 24, 37, 66, 71, 83).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"Dr Isaac Kwesi Acquah.\" (screen 4, 44% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 6 screens in a row: \"Dr Isaac Kwesi Acquah.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 768,
+   "message": "1 eyebrow/kicker label(s) above headings: \"All projects\" above \"RadPulse Africa\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 768,
+   "message": "6 thin rule(s)/divider line(s): button.flex.w-full 707px | button.flex.w-full 707px | button.flex.w-full 707px | button.flex.w-full 707px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 768,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Dr Isaac Kwesi Acquah.\" (screen 3, 45% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 390,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\desktop-page-01.jpg",
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\tablet-page-01.jpg",
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\mobile-page-01.jpg",
+    "C:\\Users\\morte\\Desktop\\ikacquah.com\\.taste-skill\\detail\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

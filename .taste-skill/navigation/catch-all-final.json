@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-18T02:51:26.608Z",
+  "url": "http://localhost:3000/en/no-such-page",
+  "console": [
+    {
+      "kind": "error",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "kind": "warning",
+      "message": "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    }
+  ],
+  "mcp": {
+    "get_errors": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"configErrors\":[],\"sessionErrors\":[]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ],
+    "get_compilation_issues": [
+      {
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"issues\":[]}"
+            }
+          ]
+        },
+        "jsonrpc": "2.0",
+        "id": 1
+      }
+    ]
+  },
+  "status": 404,
+  "heading": "This page is not here.",
+  "robots": [
+    "noindex, nofollow",
+    "noindex"
+  ],
+  "instantValidationErrors": [],
+  "applicationErrors": [],
+  "result": "pass"
+}

@@ -2,11 +2,12 @@ import type { MetadataRoute } from "next";
 import { getPathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { listAvailablePosts } from "@/lib/blog";
+import { projects } from "@/data/projects";
 import { absoluteUrl } from "@/lib/seo";
 
 // These are the real standalone pages. Homepage sections such as Research,
 // Teaching, Services, and Contact are anchors on `/`, not separate URLs.
-const staticRoutes = ["/", "/publications", "/blog"] as const;
+const staticRoutes = ["/", "/projects", "/publications", "/blog"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.flatMap((href) =>
@@ -27,5 +28,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   );
 
-  return [...staticEntries, ...articleEntries];
+  const projectEntries = projects.map(project => ({
+    url: absoluteUrl(getPathname({ locale: "en", href: `/projects/${project.slug}` })),
+  }));
+
+  return [...staticEntries, ...projectEntries, ...articleEntries];
 }

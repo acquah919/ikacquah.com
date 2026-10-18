@@ -1,0 +1,1300 @@
+[
+  {
+    "name": "200 en/projects",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 en/projects/radpulse-africa",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 en/blog",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 fr/projects",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 fr/projects/radpulse-africa",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 fr/blog",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 es/projects",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 es/projects/radpulse-africa",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 es/blog",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 pt/projects",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 pt/projects/radpulse-africa",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 pt/blog",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 ar/projects",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 ar/projects/radpulse-africa",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "200 ar/blog",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "Unknown project returns 404",
+    "pass": true
+  },
+  {
+    "name": "Sitemap includes projects and English case study",
+    "pass": true
+  },
+  {
+    "name": "Blog starts with three of four posts",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "Second page has final article",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 1,
+      "range": "Articles: Showing 4 to 4 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "Case-insensitive search resets page",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 1,
+      "range": "Articles: Showing 1 to 1 of 1 articles",
+      "query": "FOOTBALL",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "Search clear button clears query",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "Category filters two reflections",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 2,
+      "range": "Articles: Showing 1 to 2 of 2 articles",
+      "query": "",
+      "category": "Personal Reflections",
+      "models": []
+    }
+  },
+  {
+    "name": "Search and category combine",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 1,
+      "range": "Articles: Showing 1 to 1 of 1 articles",
+      "query": "beginner",
+      "category": "Personal Reflections",
+      "models": []
+    }
+  },
+  {
+    "name": "No-results state and clear action",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "range": "Articles: Showing 0 to 0 of 0 articles",
+      "query": "zzzznothing",
+      "category": "Personal Reflections",
+      "models": []
+    }
+  },
+  {
+    "name": "Clear restores page one",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "Stable post identity while entering 0",
+    "pass": true
+  },
+  {
+    "name": "Stable post identity while entering 1",
+    "pass": true
+  },
+  {
+    "name": "Stable post identity while entering 2",
+    "pass": true
+  },
+  {
+    "name": "Stable post identity while entering 3",
+    "pass": true
+  },
+  {
+    "name": "Stable post identity while entering 4",
+    "pass": true
+  },
+  {
+    "name": "No duplicate-transition console errors",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "Article navigation still works",
+    "pass": true,
+    "detail": "/en/blog/the-beauty-of-being-a-beginner"
+  },
+  {
+    "name": "Requested phone models present",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Requested note removed",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 1",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 2",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 3",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 4",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 5",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough chapter 6",
+    "pass": true
+  },
+  {
+    "name": "Walkthrough keyboard selects next screen",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-equipment",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Dark screenshot selected",
+    "pass": true
+  },
+  {
+    "name": "iPhone model selector updates frame",
+    "pass": true
+  },
+  {
+    "name": "Magic UI mock components render",
+    "pass": true
+  },
+  {
+    "name": "Frame 1, chapter 1, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fhome-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 1, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fhome-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 2, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fequipment-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 2, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fequipment-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 3, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Ftasks-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 3, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Ftasks-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 4, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Frecords-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 4, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Frecords-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 5, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fmore-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 5, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fmore-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 6, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 1, chapter 6, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 265.2628173828125,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 1, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fhome-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 1, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fhome-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 2, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fequipment-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 2, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fequipment-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 3, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Ftasks-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 3, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Ftasks-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 4, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Frecords-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 4, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Frecords-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 5, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fmore-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 5, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fmore-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 6, light screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "light",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-light.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Frame 2, chapter 6, dark screenshot",
+    "pass": true,
+    "detail": {
+      "appearance": "dark",
+      "opacity": "1",
+      "width": 280,
+      "box": 251.859375,
+      "src": "/_next/image?url=%2Fassets%2Fprojects%2Fradpulse-africa%2Fcreator-dark.webp&w=1200&q=75"
+    }
+  },
+  {
+    "name": "Every Magic UI SVG mask has a unique id",
+    "pass": true
+  },
+  {
+    "name": "Playback advances after five seconds",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-equipment",
+      "playing": "true",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Manual selection pauses playback",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-records",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Visibility-change handler pauses playback",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-records",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Offscreen playback pauses",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-records",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Playback ends and offers replay",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-about",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Project nav active on detail",
+    "pass": true
+  },
+  {
+    "name": "No walkthrough browser errors",
+    "pass": true,
+    "detail": {
+      "exceptions": [],
+      "console": []
+    }
+  },
+  {
+    "name": "Footer email is immediately visible",
+    "pass": true
+  },
+  {
+    "name": "Contact section email is immediately visible",
+    "pass": true
+  },
+  {
+    "name": "Obfuscated email and reveal button removed",
+    "pass": true
+  },
+  {
+    "name": "light /en/projects @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects/radpulse-africa @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects/radpulse-africa @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects/radpulse-africa @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects/radpulse-africa @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/projects/radpulse-africa @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "light /en/blog @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "light /en/blog @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "light /en/blog @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "light /en/blog @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "light /en/blog @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "dark /en/projects @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Ideas, put to work.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects/radpulse-africa @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects/radpulse-africa @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects/radpulse-africa @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects/radpulse-africa @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/projects/radpulse-africa @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "dark /en/blog @320",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "dark /en/blog @390",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "dark /en/blog @768",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "dark /en/blog @1024",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "dark /en/blog @1440",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "Notes & perspectives.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "Articles: Showing 1 to 3 of 4 articles",
+      "query": "",
+      "category": "All",
+      "models": []
+    }
+  },
+  {
+    "name": "RTL /ar/projects/radpulse-africa",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-home",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "RTL mobile chapter selection",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-equipment",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "RTL mobile chapter keyboard direction",
+    "pass": true
+  },
+  {
+    "name": "RTL /ar/blog",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "ملاحظات ورؤى.",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 3,
+      "range": "المقالات: عرض 1 إلى 3 من 4 مقالات",
+      "query": "",
+      "category": "الكل",
+      "models": []
+    }
+  },
+  {
+    "name": "Reduced-motion chapter selection",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "h1": "RadPulse Africa",
+      "h1Count": 1,
+      "broken": [],
+      "rows": 0,
+      "selected": "chapter-tasks",
+      "playing": "false",
+      "models": [
+        "iPhone 18 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "Pixel 11 Pro",
+        "iPhone 18 Pro"
+      ]
+    }
+  },
+  {
+    "name": "Initial project content readable without JS",
+    "pass": true
+  }
+]
