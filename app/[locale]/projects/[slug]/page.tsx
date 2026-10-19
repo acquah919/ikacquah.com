@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { locale as getRootLocale } from "next/root-params";
 import { RouteFallback } from "@/components/navigation/route-fallback";
 import { Suspense } from "react";
@@ -89,7 +90,21 @@ async function ProjectPageContent({ params, locale }: ProjectPageProps & { local
                 </Reveal>
                 <Reveal initial={false} delay={0.3}><p className="mt-7 text-sm text-muted-foreground">{project.platform} <span aria-hidden="true">/</span> {t("version", { version: project.version })}</p></Reveal>
               </div>
-              <Reveal initial={false} delay={0.15}><DevicePair screens={project.screens} locale={typedLocale} /></Reveal>
+              <Reveal initial={false} delay={0.15} className="min-w-0">
+                {project.heroImage ? (
+                  <Image
+                    src={project.heroImage.src}
+                    alt={localize(project.heroImage.alt, typedLocale)}
+                    width={project.heroImage.width}
+                    height={project.heroImage.height}
+                    priority
+                    unoptimized
+                    className="project-hero-image h-auto w-full rounded-3xl"
+                  />
+                ) : (
+                  <DevicePair screens={project.screens} locale={typedLocale} />
+                )}
+              </Reveal>
             </div>
             {locale !== "en" && <p className="mt-10 max-w-xl text-sm leading-relaxed text-muted-foreground">{t("fallback")}</p>}
           </div>

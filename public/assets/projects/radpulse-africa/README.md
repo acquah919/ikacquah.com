@@ -6,4 +6,6 @@ The portfolio content is maintained in `data/projects.ts`. Update the screenshot
 
 `project-preview.webp` is a lossless 590 by 526 pixel copy of the supplied project artwork, used only on the Projects index through `previewImage`. It keeps the full composition and original aspect ratio. It is served without a second image encode to protect the small text within the artwork.
 
+`project-detail.webp` is a lossless 755 by 619 pixel copy of the supplied `a.png`, used in the project detail hero through `heroImage`. It replaces the paired phone presentation in that location, retaining the full artwork without cropping or a second image encode.
+
 Project facts come from the supplied `radpulse.docx`: Android, version 1.0.0, and ongoing development. The Expo link leads to the development project page.
