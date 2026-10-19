@@ -20,6 +20,7 @@ export interface Project {
   summary: Localized<string>;
   category: Localized<string>;
   previewImage?: Image;
+  heroImage?: Image;
   status: "in-development" | "completed";
   platform: string;
   version: string;
@@ -49,6 +50,12 @@ export const projects: Project[] = [
       alt: en("RadPulse Africa project overview with application screens, quality-control features, and supported imaging modalities."),
       width: 590,
       height: 526,
+    },
+    heroImage: {
+      src: "/assets/projects/radpulse-africa/project-detail.webp",
+      alt: en("RadPulse Africa overview with application screens, quality-control features, supported imaging modalities, and its creator Dr Isaac Kwesi Acquah."),
+      width: 755,
+      height: 619,
     },
     status: "in-development",
     platform: "Android",

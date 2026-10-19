@@ -7,7 +7,7 @@
 - DRIFT: no remote data, account, permissions, or feature flags. Test content comes from the same checked-out local data and MDX as the build.
 - BASELINE: eight unlocked cases passed, then all eight passed using the official instant helper on the same production artifact before changing cache flags or Link behavior. The existing public routes already satisfy their selected readiness contracts; no artificial prefetch failure was introduced.
 - REGRESSIONS: a separate section-marker lifecycle test failed before the hook repair and passed afterward. A locale-fallback navigation test preserves the original English destination and NEXT_LOCALE cookie. The current four posts appear on one page with the six-post limit.
-- CONTRACTS: header Projects, Blog, and Publications links must show destination headings and primary catalogue/library content before the click completes; catalogue RadPulse link must show its title and phone preview; blog article title link must show the article title and publication metadata; article return link must show the blog titles; mobile menu Projects must show its catalogue. Each has a separate click-driven test, preserving the current viewport/default or explicit prefetch policy. All content remains available after navigation. No personalized or navigation-only data exists.
+- CONTRACTS: header Projects, Blog, and Publications links must show destination headings and primary catalogue/library content before the click completes; catalogue RadPulse link must show its title and project artwork; blog article title link must show the article title and publication metadata; article return link must show the blog titles; mobile menu Projects must show its catalogue. Each has a separate click-driven test, preserving the current viewport/default or explicit prefetch policy. All content remains available after navigation. No personalized or navigation-only data exists.
 - LOOP: build, Playwright-owned start, tests, automatic server cleanup, edit, repeat. No remote deployment, push, or commit is part of this rig.
 - LIVENESS: n/a; fresh local build and Playwright-owned start; stale port ownership fails rather than reusing an existing process.
 - WALLS: Windows uses installed Edge through Playwright, avoiding browser downloads. Other systems use Playwright Chromium, or set PLAYWRIGHT_CHANNEL to an installed compatible browser. Automatic prefetch behavior is verified in production only. Existing user development and production servers remain on their own ports.
@@ -19,8 +19,8 @@
 | `/en`, header Projects | Catalogue heading and featured project link | Default viewport shell |
 | `/en`, header Blog | Heading, article titles, search and categories | Default viewport shell |
 | `/en`, header Publications | Library heading and search | Default viewport shell |
-| `/en/projects`, RadPulse title | Case-study heading and phone preview | Explicit viewport prefetch |
-| `/en/projects`, Explore the project | Case-study heading and phone preview | Explicit viewport prefetch |
+| `/en/projects`, RadPulse title | Case-study heading and project artwork | Explicit viewport prefetch |
+| `/en/projects`, Explore the project | Case-study heading and project artwork | Explicit viewport prefetch |
 | `/en/blog`, beginner article title | Full title and publication metadata | Existing explicit viewport prefetch |
 | Beginner article, return to Blog | Heading and article titles | Default viewport shell |
 | Mobile `/en` or tablet `/ar`, menu Projects | Localized catalogue heading and project link | Default when menu link appears |
