@@ -43,7 +43,7 @@ test("header Publications opens the library ready", async ({ page }) => {
   });
 });
 
-test("featured RadPulse link opens its title and phone preview ready", async ({ page }) => {
+test("featured RadPulse link opens its title and project artwork ready", async ({ page }) => {
   await page.goto("/en/projects");
   const link = page.locator('main:visible a[href="/en/projects/radpulse-africa"]').first();
   await navigate(page, async () => {
@@ -51,7 +51,7 @@ test("featured RadPulse link opens its title and phone preview ready", async ({ 
     await page.waitForURL("**/en/projects/radpulse-africa");
     await expect(page.locator("header")).toBeVisible();
     await expect(page.locator("main:visible h1")).toHaveText("RadPulse Africa");
-    await expect(page.locator("main:visible .device-pair")).toBeVisible();
+    await expect(page.locator("main:visible .project-hero-image")).toBeVisible();
   });
   await expect(page.locator("#application")).toBeAttached();
 });
@@ -136,7 +136,7 @@ test("Explore project action opens the case study ready", async ({ page }) => {
     await page.waitForURL("**/en/projects/radpulse-africa");
     await expect(page.locator("header")).toBeVisible();
     await expect(page.locator("main:visible h1")).toHaveText("RadPulse Africa");
-    await expect(page.locator("main:visible .device-pair")).toBeVisible();
+    await expect(page.locator("main:visible .project-hero-image")).toBeVisible();
   });
 });
 
@@ -206,6 +206,8 @@ test("RadPulse initial screen renders before the client bundle loads", async ({ 
   await page.route("**/_next/static/chunks/*.js", route => route.abort());
   await page.goto("/en/projects/radpulse-africa");
   await expect(page.locator("main:visible h1")).toHaveText("RadPulse Africa");
-  await expect(page.locator("main:visible .device-pair")).toBeVisible();
-  await expect(page.locator("main:visible .device-pair img").first()).toBeVisible();
+  const artwork = page.locator("main:visible .project-hero-image");
+  await expect(artwork).toBeVisible();
+  await expect(artwork).toHaveAttribute("src", "/assets/projects/radpulse-africa/project-detail.webp");
+  await expect(artwork).toHaveJSProperty("naturalWidth", 755);
 });
